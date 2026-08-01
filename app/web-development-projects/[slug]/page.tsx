@@ -94,11 +94,13 @@ export default async function ProjectPage({
               </figure>
             )}
 
-            <div className="project-body">
-              {p.body.map((block, i) => (
-                <Block key={i} block={block} />
-              ))}
-            </div>
+            {p.body.length > 0 && (
+              <div className="project-body">
+                {p.body.map((block, i) => (
+                  <Block key={i} block={block} />
+                ))}
+              </div>
+            )}
 
             <p className="project-tags">{p.tags.join(" · ")}</p>
           </div>
