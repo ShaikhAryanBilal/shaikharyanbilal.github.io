@@ -1,0 +1,80 @@
+{
+  "name": "Shaikh Aryan Bilal",
+  "tagline": "Full-Stack WordPress Developer",
+  "location": "Karachi, Pakistan",
+  "hours": "Available 24/7",
+  "url": "",
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Certifications",
+      "href": "/certifications"
+    },
+    {
+      "label": "Portfolio",
+      "href": "/web-development-projects"
+    },
+    {
+      "label": "Services",
+      "href": "/services",
+      "children": [
+        {
+          "label": "Website Design & Development",
+          "href": "/website-design-and-development"
+        },
+        {
+          "label": "E-Commerce Store Development",
+          "href": "/e-commerce-store-development"
+        },
+        {
+          "label": "WordPress Performance Optimization",
+          "href": "/performance-optimization"
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "cta": {
+    "label": "Hire me",
+    "href": "/contact"
+  },
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shaikh-aryan-bilal/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/ShaikhAryanBilal/"
+    },
+    {
+      "label": "WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=923472738186"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/aryan.bilal.9"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/shaikharyan12/"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2026 Shaikh Aryan Bilal",
+    "note": "Built with Next.js · Deployed on Vercel"
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/923472738186",
+    "email": "shaikharyan637@gmail.com",
+    "phone": "+92 347 2738186",
+    "location": "Karachi, Pakistan",
+    "hours": "Available 24/7"
+  }
+}

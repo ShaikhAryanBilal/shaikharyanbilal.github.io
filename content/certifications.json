@@ -1,0 +1,29 @@
+{
+  "kicker": "Certifications",
+  "title": "Certifications",
+  "lede": "Here are some of my achievements.",
+  "images": [
+    "/images/certifications/1-467-cd9aea800a5ac63b016e214703b4598c-13-100_page-0001.jpg",
+    "/images/certifications/screenshot-2021-12-23-211755.png",
+    "/images/certifications/pen-testing_certificate-of-achievement-1.jpg",
+    "/images/certifications/advanced-penteration-testing-certificate-1.jpg",
+    "/images/certifications/certificate-be-a-white-hat-hacker-and-pen-tester.jpg",
+    "/images/certifications/chief-information-security-officer-ciso-certificate-1.jpg",
+    "/images/certifications/cross-site-scripting-skill-certificate-1.jpg",
+    "/images/certifications/end-user-network-security-1.jpg",
+    "/images/certifications/ethical-hacker-certificate-1.jpg",
+    "/images/certifications/html_certificate.jpg",
+    "/images/certifications/idsips-certificate-1.jpg",
+    "/images/certifications/injection-flaws-certificate-1.jpg",
+    "/images/certifications/intro-to-data-sci-cert-1.jpg",
+    "/images/certifications/metasploit-certificate-1.jpg",
+    "/images/certifications/nessus-fundamentals-certificate-1.jpg",
+    "/images/certifications/python_certificate.jpg",
+    "/images/certifications/security-assesment-certificate-1.jpg",
+    "/images/certifications/sql-injection-certificate-1.jpg",
+    "/images/certifications/sql_certificate.jpg",
+    "/images/certifications/web-application-penetration-testing-1.jpg",
+    "/images/certifications/web-application-security-certificate-1.jpg",
+    "/images/certifications/xss-certificate-udemy.jpg"
+  ]
+}

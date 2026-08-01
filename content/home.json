@@ -1,0 +1,26 @@
+{
+  "kicker": "Full-Stack WordPress Developer",
+  "hero": {
+    "tagline": "Software Engineer",
+    "name": "Shaikh Aryan Bilal",
+    "lede": "I'm a Web Software Engineer with 6+ years of experience designing and developing scalable, secure, and high-performing web applications.",
+    "cta": {
+      "label": "Send a message",
+      "href": "/contact"
+    },
+    "ctaSecondary": {
+      "label": "View work",
+      "href": "/web-development-projects"
+    },
+    "portrait": "/images/portrait.jpg"
+  },
+  "about": [
+    "I’m a Web Software Engineer with over 6 years of experience designing and developing scalable, secure, and high-performing web applications. My expertise spans the full web development lifecycle, with a strong focus on backend engineering using PHP, Laravel, WordPress, REST APIs, and MySQL, while also delivering seamless integrations across the web stack.",
+    "I specialize in building custom web solutions, engineering robust backend architectures, developing APIs, creating WordPress plugins, and designing admin systems that are maintainable, performant, and built to scale. Whether working with Laravel or WordPress, I focus on writing clean, modular code that supports long-term growth and evolving business requirements.",
+    "Beyond backend development, I'm experienced with front-end technologies including HTML, CSS, JavaScript, and jQuery, enabling me to collaborate effectively across the entire application stack and deliver complete web solutions when needed.",
+    "Security is a fundamental part of my engineering process. I follow OWASP best practices, implement secure coding standards, protect applications against common vulnerabilities such as SQL injection, XSS, and CSRF, and prioritize resilience from application logic to deployment.",
+    "I'm also exploring the intersection of web engineering and generative AI, experimenting with intelligent automation, AI-assisted workflows, and personalized user experiences that enhance modern web applications.",
+    "Whether I'm architecting a Laravel application, extending WordPress beyond its core capabilities, or integrating complex APIs, I approach every project with an engineering mindset focused on scalability, security, maintainability, and real-world impact.",
+    "Let's connect if you're looking for a Web Software Engineer who combines deep PHP expertise with modern software engineering practices, secure application design, and a passion for building reliable web systems. I can contribute backend problem-solving skills, share knowledge, and learn from others. My goal is to engineer secure, efficient, and innovative digital systems that solve real business challenges."
+  ]
+}

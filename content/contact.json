@@ -1,0 +1,52 @@
+{
+  "kicker": "Contact",
+  "title": "Contact",
+  "lede": "Don't hesitate to reach out with the contact information below, or send a message using the form.",
+  "email": "shaikharyan637@gmail.com",
+  "phone": "+923472738186",
+  "location": "Karachi, Pakistan",
+  "hours": "Available 24/7",
+  "whatsapp": "https://wa.me/923472738186",
+  "socials": [
+    {
+      "label": "Facebook",
+      "url": "https://www.facebook.com/aryan.bilal.9"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/shaikharyan12/"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shaikh-aryan-bilal/"
+    },
+    {
+      "label": "WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=923472738186"
+    }
+  ],
+  "form": {
+    "heading": "Send a Message",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "submit": "Send"
+  }
+}
