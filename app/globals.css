@@ -947,39 +947,8 @@ html[data-theme="light"] .theme-toggle .icon-moon {
    FOOTER
    ============================================================ */
 .footer {
-  border-top: 1px solid var(--border);
   padding: 0 0 2rem;
   font-size: 0.9rem;
-}
-.foot-contact {
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 2rem;
-}
-.foot-contact-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.foot-block {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-  color: var(--text);
-}
-.foot-block .foot-label {
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-.foot-block a {
-  color: var(--text);
-}
-.foot-block a:hover {
-  color: var(--accent);
 }
 .foot-inner {
   max-width: var(--max-w);
@@ -1008,6 +977,74 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 }
 
 /* ============================================================
+   CONTACT SECTION (global, above footer)
+   ============================================================ */
+.contact-section {
+  border-top: 1px solid var(--border);
+  padding: clamp(3.5rem, 8vh, 5rem) 0;
+}
+.contact-section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: clamp(2rem, 5vh, 3rem);
+}
+.contact-section-title {
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+.contact-section-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.5rem, 3vw, 2rem);
+}
+.contact-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: var(--text);
+}
+.contact-block-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+.contact-block-icon svg {
+  width: 18px;
+  height: 18px;
+}
+.contact-block-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.contact-block a,
+.contact-block > span:last-child {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--text);
+  width: fit-content;
+}
+.contact-block a {
+  border-bottom: 1px dotted currentColor;
+  transition: color 0.2s ease;
+}
+.contact-block a:hover {
+  color: var(--accent);
+}
+
+/* ============================================================
    MOBILE
    ============================================================ */
 @media (max-width: 900px) {
@@ -1027,7 +1064,7 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   .contact-grid {
     grid-template-columns: 1fr;
   }
-  .foot-contact-grid {
+  .contact-section-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -1058,9 +1095,9 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   .nav-links {
     display: none;
   }
-  .foot-contact-grid {
+  .contact-section-grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.25rem;
   }
 }
 
