@@ -310,23 +310,14 @@ const contact = {
 // ---------------------------------------------------------------------------
 const SITE = {
   name: decodeCDATA((/<channel>[\s\S]*?<title>([^<]+)<\/title>/.exec(xml) || [])[1] || "Shaikh Aryan Bilal"),
-  tagline: "Full-Stack WordPress Developer",
+  tagline: "Web Software Engineer",
   location: "Karachi, Pakistan",
   hours: "Available 24/7",
   url: "",
   nav: [
     { label: "Home", href: "/" },
     { label: "Certifications", href: "/certifications" },
-    { label: "Portfolio", href: "/web-development-projects" },
-    {
-      label: "Services",
-      href: "/services",
-      children: [
-        { label: "Website Design & Development", href: "/website-design-and-development" },
-        { label: "E-Commerce Store Development", href: "/e-commerce-store-development" },
-        { label: "WordPress Performance Optimization", href: "/performance-optimization" },
-      ],
-    },
+    { label: "Portfolio", href: "/portfolio" },
     { label: "Contact", href: "/contact" },
   ],
   cta: { label: "Hire me", href: "/contact" },
@@ -353,11 +344,11 @@ const SITE = {
 const home = {
   kicker: SITE.tagline,
   hero: {
-    tagline: "Software Engineer",
+    tagline: "Web Software Engineer",
     name: SITE.name,
     lede: "I'm a Web Software Engineer with 6+ years of experience designing and developing scalable, secure, and high-performing web applications.",
     cta: { label: "Send a message", href: "/contact" },
-    ctaSecondary: { label: "View work", href: "/web-development-projects" },
+    ctaSecondary: { label: "View work", href: "/portfolio" },
     portrait: "/images/portrait.jpg",
   },
   about: bio,

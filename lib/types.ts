@@ -39,7 +39,6 @@ export interface Project {
   title: string;
   site: string;
   date: string;
-  category: string;
   excerpt: string;
   tags: string[];
   image: string | null;

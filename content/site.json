@@ -1,6 +1,6 @@
 {
   "name": "Shaikh Aryan Bilal",
-  "tagline": "Full-Stack WordPress Developer",
+  "tagline": "Web Software Engineer",
   "location": "Karachi, Pakistan",
   "hours": "Available 24/7",
   "url": "",
@@ -15,25 +15,7 @@
     },
     {
       "label": "Portfolio",
-      "href": "/web-development-projects"
-    },
-    {
-      "label": "Services",
-      "href": "/services",
-      "children": [
-        {
-          "label": "Website Design & Development",
-          "href": "/website-design-and-development"
-        },
-        {
-          "label": "E-Commerce Store Development",
-          "href": "/e-commerce-store-development"
-        },
-        {
-          "label": "WordPress Performance Optimization",
-          "href": "/performance-optimization"
-        }
-      ]
+      "href": "/portfolio"
     },
     {
       "label": "Contact",

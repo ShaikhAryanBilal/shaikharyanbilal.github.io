@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Shaikh Aryan Bilal — Full-Stack WordPress Developer",
+  title: "Shaikh Aryan Bilal — Web Software Engineer",
   description:
     "Web Software Engineer with 6+ years of experience designing and developing scalable, secure, and high-performing web applications.",
 };

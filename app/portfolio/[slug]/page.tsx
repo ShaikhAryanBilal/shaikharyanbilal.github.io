@@ -69,12 +69,11 @@ export default async function ProjectPage({
       <main>
         <article className="section page-head page-top">
           <div className="wrap">
-            <Link className="project-back" href="/web-development-projects">
+            <Link className="project-back" href="/portfolio">
               <span aria-hidden="true">←</span> Back to portfolio
             </Link>
 
             <header className="project-head">
-              <p className="kicker">{p.category}</p>
               <h1 className="section-title">{p.title}</h1>
               <div className="project-meta">
                 <span>{formattedDate}</span>

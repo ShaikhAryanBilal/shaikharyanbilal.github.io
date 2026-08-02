@@ -33,11 +33,9 @@ app/
   page.tsx              # homepage
   certifications/page.tsx
   contact/page.tsx
-  services/
-    page.tsx            # services overview
-  web-development-projects/
+  portfolio/
     page.tsx            # portfolio listing
-  [slug]/page.tsx       # service detail pages (SSG via generateStaticParams)
+    [slug]/page.tsx     # project detail pages (SSG via generateStaticParams)
 components/             # reusable UI components
   ThemeInit.tsx         # theme init script injected into <head> via useServerInsertedHTML (no-FOUC)
 lib/                    # helpers, utils, data fetching

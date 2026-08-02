@@ -1,7 +1,7 @@
 {
-  "kicker": "Full-Stack WordPress Developer",
+  "kicker": "Web Software Engineer",
   "hero": {
-    "tagline": "Software Engineer",
+    "tagline": "Web Software Engineer",
     "name": "Shaikh Aryan Bilal",
     "lede": "I'm a Web Software Engineer with 6+ years of experience designing and developing scalable, secure, and high-performing web applications.",
     "cta": {
@@ -10,7 +10,7 @@
     },
     "ctaSecondary": {
       "label": "View work",
-      "href": "/web-development-projects"
+      "href": "/portfolio"
     },
     "portrait": "/images/portrait.jpg"
   },
