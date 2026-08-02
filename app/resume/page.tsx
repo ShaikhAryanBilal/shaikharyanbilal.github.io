@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 import { workHistory } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Work History",
+  title: "Resume",
 };
 
 export default function WorkHistoryPage() {

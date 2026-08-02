@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ============================================================
-   TOKENS — Folio design language (orange accent, zinc neutrals).
+   TOKENS — Folio design language (neon green accent, zinc neutrals).
    Fallback :root = dark (init script sets data-theme before paint).
    ============================================================ */
 :root,
@@ -14,11 +14,11 @@ html[data-theme="dark"] {
   --text: #f4f4f5;        /* zinc-100 */
   --muted: #a1a1aa;       /* zinc-400 */
   --faint: #71717a;       /* zinc-500 */
-  --accent: #ff6b2b;
-  --accent-light: #ff8f5c;
-  --accent-soft: rgba(255, 107, 43, 0.12);
-  --accent-strong: #fff7f4;
-  --blob: rgba(255, 107, 43, 0.1);
+  --accent: #34d399;
+  --accent-light: #6ee7b7;
+  --accent-soft: rgba(52, 211, 153, 0.12);
+  --accent-strong: #ecfdf5;
+  --blob: rgba(52, 211, 153, 0.1);
   --blob-muted: rgba(255, 255, 255, 0.04);
   --nav-bg: rgba(9, 9, 11, 0.9);
   --shadow: rgba(0, 0, 0, 0.4);
@@ -40,11 +40,11 @@ html[data-theme="light"] {
   --text: #18181b;        /* zinc-900 */
   --muted: #71717a;       /* zinc-500 */
   --faint: #a1a1aa;       /* zinc-400 */
-  --accent: #ff6b2b;
-  --accent-light: #ff8f5c;
-  --accent-soft: rgba(255, 107, 43, 0.08);
-  --accent-strong: #fff7f4;
-  --blob: rgba(255, 107, 43, 0.1);
+  --accent: #059669;
+  --accent-light: #10b981;
+  --accent-soft: rgba(5, 150, 105, 0.08);
+  --accent-strong: #ecfdf5;
+  --blob: rgba(5, 150, 105, 0.1);
   --blob-muted: rgba(24, 24, 27, 0.04);
   --nav-bg: rgba(255, 255, 255, 0.9);
   --shadow: rgba(0, 0, 0, 0.08);
@@ -484,7 +484,6 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 .intro-photo {
   position: relative;
   width: 100%;
-  max-width: 380px;
   aspect-ratio: 4 / 5;
   border-radius: 24px;
   overflow: hidden;
@@ -1015,123 +1014,6 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 }
 
 /* ============================================================
-   LIGHTBOX
-   ============================================================ */
-.lightbox-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 200;
-  background: rgba(0, 0, 0, 0.85);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-.lightbox-backdrop.open {
-  opacity: 1;
-  pointer-events: auto;
-}
-.lightbox {
-  position: fixed;
-  inset: 0;
-  z-index: 210;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-.lightbox.open {
-  opacity: 1;
-  pointer-events: auto;
-}
-.lightbox-img-wrap {
-  position: relative;
-  width: 90vw;
-  height: 85vh;
-  border-radius: 16px;
-  overflow: hidden;
-  background: var(--card);
-  transform: scale(0.92);
-  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.lightbox.open .lightbox-img-wrap {
-  transform: scale(1);
-}
-.lightbox-img-wrap img {
-  object-fit: contain;
-}
-.lightbox-close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  z-index: 220;
-  width: 2.5rem;
-  height: 2.5rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  color: var(--text);
-  cursor: pointer;
-  transition: color 0.2s ease, border-color 0.2s ease;
-}
-.lightbox-close:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-}
-.lightbox-close svg {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-.lightbox-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 220;
-  width: 2.75rem;
-  height: 2.75rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  color: var(--text);
-  cursor: pointer;
-  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
-}
-.lightbox-arrow:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-  background: var(--accent-soft);
-}
-.lightbox-arrow svg {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-.lightbox-prev {
-  left: 1rem;
-}
-.lightbox-next {
-  right: 1rem;
-}
-.lightbox-counter {
-  position: absolute;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.85rem;
-  color: var(--muted);
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.3rem 0.9rem;
-}
-
-/* ============================================================
    WORK HISTORY
    ============================================================ */
 .resume-summary {
@@ -1359,6 +1241,9 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   .contact-panel-grid {
     grid-template-columns: 1fr;
   }
+  .intro-media {
+    order: -1;
+  }
   .stat-tiles {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1392,24 +1277,6 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   }
   .intro-name {
     font-size: clamp(2.25rem, 11vw, 3rem);
-  }
-  .intro-photo {
-    max-width: 280px;
-  }
-  .lightbox-img-wrap {
-    width: 95vw;
-    height: 80vh;
-    border-radius: 12px;
-  }
-  .lightbox-arrow {
-    width: 2.25rem;
-    height: 2.25rem;
-  }
-  .lightbox-prev {
-    left: 0.5rem;
-  }
-  .lightbox-next {
-    right: 0.5rem;
   }
 }
 

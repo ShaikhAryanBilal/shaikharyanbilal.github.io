@@ -3,7 +3,7 @@ import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
-import CertLightbox from "@/components/CertLightbox";
+import CertGrid from "@/components/CertGrid";
 import { certifications } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ export default function CertificationsPage() {
             </Reveal>
 
             <div className="cert-grid">
-              <CertLightbox images={certifications.images} />
+              <CertGrid images={certifications.images} />
             </div>
           </div>
         </section>
