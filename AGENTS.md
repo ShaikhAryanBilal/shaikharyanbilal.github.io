@@ -117,4 +117,4 @@ Before considering a task complete:
 - When unsure about a design/content decision (e.g. wording, exact colors,
   which projects to feature), ask — don't invent portfolio content on the
   user's behalf.
-- Prefer editing existing components over creating near-duplicate new ones.
+- Prefer editing existing components over creating near-duplicate new ones..
