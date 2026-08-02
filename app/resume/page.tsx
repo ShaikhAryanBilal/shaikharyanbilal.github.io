@@ -3,6 +3,7 @@ import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
+import Typewriter from "@/components/Typewriter";
 import { workHistory } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -20,10 +21,7 @@ export default function WorkHistoryPage() {
               <p className="kicker">{workHistory.kicker}</p>
             </Reveal>
             <Reveal delay={60}>
-              <h1 className="section-title">
-                {workHistory.title}
-                <span className="dot">.</span>
-              </h1>
+              <Typewriter as="h1" className="section-title" text={workHistory.title} dot />
             </Reveal>
             <Reveal delay={120}>
               <p className="lede">{workHistory.lede}</p>
@@ -34,9 +32,7 @@ export default function WorkHistoryPage() {
             </Reveal>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                Core skills<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text="Core skills" dot />
             </Reveal>
             <Reveal>
               <div className="skill-sections">
@@ -56,9 +52,7 @@ export default function WorkHistoryPage() {
             </Reveal>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                Work experience<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text="Work experience" dot />
             </Reveal>
             <div className="exp-list">
               {workHistory.experience.map((exp, i) => (
@@ -84,9 +78,7 @@ export default function WorkHistoryPage() {
             </div>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                Projects<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text="Projects" dot />
             </Reveal>
             <div className="project-list">
               {workHistory.projects.map((p, i) => (
@@ -111,9 +103,7 @@ export default function WorkHistoryPage() {
             </div>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                Education<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text="Education" dot />
             </Reveal>
             <Reveal>
               <ul className="edu-list">
@@ -127,9 +117,7 @@ export default function WorkHistoryPage() {
             </Reveal>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                Certifications<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text="Certifications" dot />
             </Reveal>
             <Reveal>
               <ul className="edu-list">
@@ -140,9 +128,7 @@ export default function WorkHistoryPage() {
             </Reveal>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                Languages<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text="Languages" dot />
             </Reveal>
             <Reveal>
               <ul className="edu-list">

@@ -1,5 +1,6 @@
 import type { SVGProps } from "react";
 import { contact } from "@/lib/content";
+import Typewriter from "@/components/Typewriter";
 
 const iconProps: SVGProps<SVGSVGElement> = {
   viewBox: "0 0 24 24",
@@ -61,9 +62,7 @@ export default function ContactSection() {
           <div className="contact-panel-grid">
             <div>
               <p className="kicker">Get in touch</p>
-              <h2 className="contact-panel-title">
-                Let&apos;s work together<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="contact-panel-title" text="Let's work together" dot />
               <p className="contact-panel-lede">{contact.lede}</p>
 
               <div className="contact-links">
@@ -87,7 +86,7 @@ export default function ContactSection() {
             <div>
               <div className="contact-whatsapp">
                 <span className="contact-whatsapp-icon">{icons.whatsapp}</span>
-                <h3>{contact.whatsappCta.title}</h3>
+                <Typewriter as="h3" text={contact.whatsappCta.title} />
                 <p>{contact.whatsappCta.text}</p>
                 <a className="pill shimmer" href={contact.whatsapp} target="_blank" rel="noopener noreferrer">
                   {contact.whatsappCta.label} <span aria-hidden="true">→</span>

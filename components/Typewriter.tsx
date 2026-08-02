@@ -13,7 +13,7 @@ export default function Typewriter({
   className?: string;
   dot?: boolean;
   speed?: number;
-  as?: "h1" | "h2";
+  as?: "h1" | "h2" | "h3";
 }) {
   const ref = useRef<HTMLHeadingElement>(null);
   const [started, setStarted] = useState(false);
