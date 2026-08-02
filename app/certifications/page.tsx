@@ -3,6 +3,7 @@ import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
+import Typewriter from "@/components/Typewriter";
 import CertGrid from "@/components/CertGrid";
 import { certifications } from "@/lib/content";
 
@@ -21,10 +22,7 @@ export default function CertificationsPage() {
               <p className="kicker">{certifications.kicker}</p>
             </Reveal>
             <Reveal delay={60}>
-              <h1 className="section-title">
-                {certifications.title}
-                <span className="dot">.</span>
-              </h1>
+              <Typewriter as="h1" className="section-title" text={certifications.title} dot />
             </Reveal>
             <Reveal delay={120}>
               <p className="lede">{certifications.lede}</p>

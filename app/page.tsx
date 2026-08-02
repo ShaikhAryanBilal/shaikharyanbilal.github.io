@@ -4,6 +4,7 @@ import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
+import Typewriter from "@/components/Typewriter";
 import { home, site } from "@/lib/content";
 
 const TECH_BRANDS: Record<string, string> = {
@@ -199,10 +200,7 @@ export default function Page() {
                 <p className="kicker">{home.kicker}</p>
               </Reveal>
               <Reveal delay={60}>
-                <h1 className="intro-name">
-                  {home.hero.name}
-                  <span className="dot">.</span>
-                </h1>
+                <Typewriter as="h1" className="intro-name" text={home.hero.name} dot />
               </Reveal>
               <Reveal delay={120}>
                 <p className="intro-lede">{home.hero.lede}</p>
@@ -249,9 +247,7 @@ export default function Page() {
         <section className="section about" id="about">
           <div className="wrap">
             <Reveal>
-              <h2 className="section-title">
-                About me<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="section-title" text="About me" dot />
             </Reveal>
             {home.about.map((p, i) => (
               <Reveal key={i} delay={i * 60}>
@@ -264,9 +260,7 @@ export default function Page() {
         <section className="section tech" id="tech">
           <div className="wrap">
             <Reveal>
-              <h2 className="section-title">
-                Tech stack<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="section-title" text="Tech stack" dot />
             </Reveal>
             <Reveal delay={60}>
               <ul className="tech-grid">

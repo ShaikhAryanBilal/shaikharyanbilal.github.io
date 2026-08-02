@@ -371,6 +371,20 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 .section-title .dot {
   color: var(--accent);
 }
+.caret {
+  display: inline-block;
+  width: 0.08em;
+  height: 0.95em;
+  margin-left: 0.15em;
+  vertical-align: text-bottom;
+  background: var(--accent);
+  animation: caret-blink 0.8s step-end infinite;
+}
+@keyframes caret-blink {
+  50% {
+    opacity: 0;
+  }
+}
 .lede {
   max-width: 60ch;
   font-size: 1.05rem;
@@ -468,7 +482,7 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 }
 .stat-tile strong {
   font-family: var(--font-display);
-  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-size: clamp(1.9rem, 3.5vw, 2.6rem);
   font-weight: 700;
   color: var(--text);
   line-height: 1.1;
