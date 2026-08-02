@@ -506,6 +506,56 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 }
 
 /* ============================================================
+   TECH STACK (home)
+   ============================================================ */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+.tech-tile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 0.85rem 1rem;
+  transition: border-color 0.18s ease, background-color 0.18s ease, transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tech-tile:hover {
+  border-color: var(--brand);
+  background: var(--card-soft);
+  transform: translateY(-4px);
+}
+.tech-badge {
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: var(--card-soft);
+  border: 1px solid var(--border);
+  color: var(--brand);
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.tech-badge svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.tech-tile:hover .tech-badge {
+  border-color: var(--brand);
+}
+.tech-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.25;
+}
+
+/* ============================================================
    TAG PILLS
    ============================================================ */
 .tag-pill {

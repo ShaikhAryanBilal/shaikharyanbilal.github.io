@@ -23,11 +23,11 @@
   "skills": [
     {
       "title": "Backend",
-      "items": ["PHP", "Laravel", "WordPress", "REST APIs", "MySQL", "Redis"]
+      "items": ["PHP", "Laravel", "WordPress", "Strapi", "REST APIs", "MySQL", "Redis"]
     },
     {
       "title": "Frontend",
-      "items": ["HTML", "CSS", "JavaScript", "jQuery", "Responsive Design"]
+      "items": ["HTML", "CSS", "JavaScript", "TypeScript", "Next.js", "jQuery", "Responsive Design"]
     },
     {
       "title": "Security",
