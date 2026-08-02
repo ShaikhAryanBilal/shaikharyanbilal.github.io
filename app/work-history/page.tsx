@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 import { workHistory } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Work History — Shaikh Aryan Bilal",
+  title: "Work History",
 };
 
 export default function WorkHistoryPage() {

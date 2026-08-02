@@ -15,10 +15,63 @@ const ptSans = PT_Sans({
   weight: ["400", "700"],
 });
 
+const siteUrl = "https://shaikharyanbilal.vercel.app";
+const siteName = "Shaikh Aryan Bilal";
+const description =
+  "Backend-focused Software Engineer with 6+ years of experience in PHP, Laravel, WordPress, and Strapi — building scalable APIs, secure backend systems, and headless CMS solutions.";
+
 export const metadata: Metadata = {
-  title: "Shaikh Aryan Bilal — Web Software Engineer",
-  description:
-    "Web Software Engineer with 6+ years of experience designing and developing scalable, secure, and high-performing web applications.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: `${siteName} — Web Software Engineer`,
+    template: `%s — ${siteName}`,
+  },
+  description,
+  keywords: [
+    "Shaikh Aryan Bilal",
+    "Web Software Engineer",
+    "Backend Developer",
+    "PHP",
+    "Laravel",
+    "WordPress",
+    "Strapi",
+    "REST API",
+    "Headless CMS",
+    "Web Security",
+    "Portfolio",
+    "Karachi",
+  ],
+  authors: [{ name: siteName }],
+  creator: siteName,
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteUrl,
+    siteName,
+    title: `${siteName} — Web Software Engineer`,
+    description,
+    images: [
+      {
+        url: "/images/portrait-2026.jpg",
+        width: 1086,
+        height: 1448,
+        alt: `${siteName}, Web Software Engineer`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${siteName} — Web Software Engineer`,
+    description,
+    images: ["/images/portrait-2026.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

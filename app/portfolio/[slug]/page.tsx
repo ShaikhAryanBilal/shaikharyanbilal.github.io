@@ -21,7 +21,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const p = work.projects.find((x) => x.slug === slug);
-  return { title: p ? `${p.title} — Shaikh Aryan Bilal` : "Portfolio" };
+  return { title: p ? p.title : "Portfolio" };
 }
 
 function Block({ block }: { block: Block }) {

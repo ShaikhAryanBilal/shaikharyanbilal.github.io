@@ -7,7 +7,7 @@ import CertLightbox from "@/components/CertLightbox";
 import { certifications } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Certifications — Shaikh Aryan Bilal",
+  title: "Certifications",
 };
 
 export default function CertificationsPage() {

@@ -9,7 +9,7 @@ import { work } from "@/lib/content";
 import type { Project } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "Portfolio — Shaikh Aryan Bilal",
+  title: "Portfolio",
 };
 
 const CLIENT_NAMES: Record<string, string> = {
