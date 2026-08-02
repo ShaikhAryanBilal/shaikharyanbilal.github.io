@@ -1,7 +1,7 @@
 {
   "kicker": "Work History",
   "title": "Work History",
-  "lede": "Six years of backend-focused web engineering across Laravel, WordPress, and Strapi — from architecture and APIs to payments, security, and end-to-end delivery.",
+  "lede": "",
   "summary": "Web Software Engineer with 6+ years of experience delivering custom web applications in Laravel and WordPress. Experienced in backend system architecture, REST API design and migration, and Stripe payment integration. Proficient in AI agentic workflows, LLM orchestration, and agent-driven pipelines to accelerate delivery while maintaining code quality. Focus on clean architecture, performance optimization, application security, and end-to-end delivery as a solo developer.",
   "skills": [
     { "category": "Languages", "skills": "PHP" },
