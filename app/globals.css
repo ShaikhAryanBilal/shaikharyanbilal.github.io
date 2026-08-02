@@ -947,7 +947,7 @@ html[data-theme="light"] .theme-toggle .icon-moon {
    FOOTER
    ============================================================ */
 .footer {
-  padding: 0 0 2rem;
+  padding: 1.5rem 0 2rem;
   font-size: 0.9rem;
 }
 .foot-inner {
@@ -980,7 +980,9 @@ html[data-theme="light"] .theme-toggle .icon-moon {
    CONTACT SECTION (global, above footer)
    ============================================================ */
 .contact-section {
+  background: var(--surface);
   border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   padding: clamp(3.5rem, 8vh, 5rem) 0;
 }
 .contact-section-head {
@@ -1042,6 +1044,10 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 }
 .contact-block a:hover {
   color: var(--accent);
+}
+.contact-section-cta {
+  display: flex;
+  margin-top: clamp(2rem, 5vh, 3rem);
 }
 
 /* ============================================================

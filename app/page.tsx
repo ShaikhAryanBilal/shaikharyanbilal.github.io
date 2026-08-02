@@ -1,5 +1,6 @@
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
+import ContactSection from "@/components/ContactSection";
 import Hero from "@/components/Hero";
 import Reveal from "@/components/Reveal";
 import { home } from "@/lib/content";
@@ -31,6 +32,7 @@ export default function Page() {
           </div>
         </section>
       </main>
+      <ContactSection />
       <SiteFooter />
     </>
   );

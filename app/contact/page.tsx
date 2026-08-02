@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
+import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 import { contact } from "@/lib/content";
@@ -60,6 +61,7 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
+      <ContactSection />
       <SiteFooter />
     </>
   );

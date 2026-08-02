@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
+import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import { services } from "@/lib/content";
 
@@ -75,6 +76,7 @@ export default function ServicesPage() {
           </section>
         </Reveal>
       </main>
+      <ContactSection />
       <SiteFooter />
     </>
   );

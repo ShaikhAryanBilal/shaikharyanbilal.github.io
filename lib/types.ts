@@ -44,6 +44,7 @@ export interface Project {
   tags: string[];
   image: string | null;
   body: Block[];
+  hidden?: boolean;
 }
 
 export interface Home {

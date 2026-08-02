@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
+import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import { services } from "@/lib/content";
 
@@ -78,6 +79,7 @@ export default async function ServicePage({
           </div>
         </section>
       </main>
+      <ContactSection />
       <SiteFooter />
     </>
   );

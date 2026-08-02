@@ -4,13 +4,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
+import ContactSection from "@/components/ContactSection";
 import { work } from "@/lib/content";
 import type { Block } from "@/lib/types";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return work.projects.map((p) => ({ slug: p.slug }));
+  return work.projects.filter((p) => !p.hidden).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
@@ -106,6 +107,7 @@ export default async function ProjectPage({
           </div>
         </article>
       </main>
+      <ContactSection />
       <SiteFooter />
     </>
   );

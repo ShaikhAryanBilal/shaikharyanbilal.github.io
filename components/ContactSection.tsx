@@ -1,4 +1,5 @@
 import type { SVGProps } from "react";
+import Link from "next/link";
 import { site } from "@/lib/content";
 
 const iconProps: SVGProps<SVGSVGElement> = {
@@ -71,6 +72,11 @@ export default function ContactSection() {
             <span className="contact-block-label">Hours</span>
             <span>{contact.hours}</span>
           </div>
+        </div>
+        <div className="contact-section-cta">
+          <Link className="cta" href="/contact">
+            Send a message
+          </Link>
         </div>
       </div>
     </section>

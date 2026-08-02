@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
+import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import { work } from "@/lib/content";
 
@@ -11,6 +12,8 @@ export const metadata: Metadata = {
 };
 
 export default function PortfolioPage() {
+  const projects = work.projects.filter((p) => !p.hidden);
+
   return (
     <>
       <SiteNav />
@@ -31,7 +34,7 @@ export default function PortfolioPage() {
             </Reveal>
 
             <div className="work-grid">
-              {work.projects.map((p, i) => (
+              {projects.map((p, i) => (
                 <Reveal key={p.slug} delay={(i % 3) * 80}>
                   <article className="work-card">
                     {p.image && (
@@ -57,7 +60,6 @@ export default function PortfolioPage() {
                     <h3>
                       <Link href={`/web-development-projects/${p.slug}`}>{p.title}</Link>
                     </h3>
-                    {p.excerpt ? <p>{p.excerpt}</p> : null}
                     <p className="tags">{p.tags.join(" · ")}</p>
                     <Link
                       className="card-link"
@@ -72,6 +74,7 @@ export default function PortfolioPage() {
           </div>
         </section>
       </main>
+      <ContactSection />
       <SiteFooter />
     </>
   );
