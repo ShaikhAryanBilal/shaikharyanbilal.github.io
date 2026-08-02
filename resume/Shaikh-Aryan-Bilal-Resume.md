@@ -21,10 +21,10 @@ Web Software Engineer with 6+ years of experience delivering custom web applicat
 
 | Category | Skills |
 |----------|--------|
-| **Languages** | PHP |
-| **Frameworks** | Laravel (Queues, Caching, Eloquent, Artisan), WordPress, Strapi, RESTful API design |
+| **Languages** | PHP, JavaScript, TypeScript |
+| **Frameworks** | Laravel (Queues, Caching, Eloquent, Artisan), WordPress, Strapi, REST API design |
 | **Databases** | MySQL, SQL, query optimization, indexing |
-| **Frontend** | HTML5, CSS3, JavaScript, Bootstrap 5, Tailwind CSS |
+| **Frontend** | HTML5, CSS3, Bootstrap 5, Tailwind CSS |
 | **Tools & DevOps** | Git, npm, Composer |
 | **AI & Agentic Workflows** | LLM orchestration, agent-driven pipelines, RAG (Retrieval-Augmented Generation), prompt engineering, AI-assisted code review |
 | **Payment Handling** | Stripe payments |

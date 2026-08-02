@@ -4,10 +4,10 @@
   "lede": "",
   "summary": "Web Software Engineer with 6+ years of experience delivering custom web applications in Laravel and WordPress. Experienced in backend system architecture, REST API design and migration, and Stripe payment integration. Proficient in AI agentic workflows, LLM orchestration, and agent-driven pipelines to accelerate delivery while maintaining code quality. Focus on clean architecture, performance optimization, application security, and end-to-end delivery as a solo developer.",
   "skills": [
-    { "category": "Languages", "skills": ["PHP"] },
+    { "category": "Languages", "skills": ["PHP", "JavaScript", "TypeScript"] },
     { "category": "Frameworks", "skills": ["Laravel", "WordPress", "Strapi", "REST API Design", "Queues", "Caching", "Eloquent", "Artisan"] },
     { "category": "Databases", "skills": ["MySQL", "SQL", "Query Optimization", "Indexing"] },
-    { "category": "Frontend", "skills": ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "Tailwind CSS"] },
+    { "category": "Frontend", "skills": ["HTML5", "CSS3", "Bootstrap 5", "Tailwind CSS"] },
     { "category": "Tools & DevOps", "skills": ["Git", "npm", "Composer"] },
     { "category": "AI & Agentic Workflows", "skills": ["LLM Orchestration", "Agent-Driven Pipelines", "RAG", "Prompt Engineering", "AI-Assisted Code Review"] },
     { "category": "Payment Handling", "skills": ["Stripe Payments"] },
