@@ -55,18 +55,18 @@ export default function PortfolioPage() {
     <>
       <SiteNav />
       <main>
-        <section className="section page-head page-top">
+        <section className="section page-top">
           <div className="wrap">
             <Reveal>
               <p className="kicker">{work.kicker}</p>
             </Reveal>
-            <Reveal>
+            <Reveal delay={60}>
               <h1 className="section-title">
                 {work.title}
                 <span className="dot">.</span>
               </h1>
             </Reveal>
-            <Reveal>
+            <Reveal delay={120}>
               <p className="lede">{work.lede}</p>
             </Reveal>
 
@@ -77,32 +77,36 @@ export default function PortfolioPage() {
                     {p.image && (
                       <Link
                         href={`/portfolio/${p.slug}`}
-                        className="thumb-link"
+                        className="work-thumb"
                         aria-label={p.title}
                       >
-                        <div className="thumb">
-                          <Image
-                            src={p.image}
-                            alt={p.title}
-                            fill
-                            sizes="(max-width: 900px) 50vw, 33vw"
-                          />
-                        </div>
+                        <Image
+                          src={p.image}
+                          alt={p.title}
+                          fill
+                          sizes="(max-width: 900px) 50vw, 33vw"
+                        />
                       </Link>
                     )}
-                    <div className="card-meta">
-                      <span>{p.date.slice(0, 4)}</span>
+                    <div className="work-body">
+                      <div className="work-tags">
+                        {p.tags.slice(0, 3).map((tag, t) => (
+                          <span key={tag} className={t === 0 ? "tag-pill hot" : "tag-pill"}>
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      <h3>
+                        <Link href={`/portfolio/${p.slug}`}>{p.title}</Link>
+                      </h3>
+                      {p.excerpt ? <p className="work-excerpt">{p.excerpt}</p> : null}
+                      <div className="work-foot">
+                        <Link className="work-link" href={`/portfolio/${p.slug}`}>
+                          View project <span aria-hidden="true">→</span>
+                        </Link>
+                        <span className="work-year">{p.date.slice(0, 4)}</span>
+                      </div>
                     </div>
-                    <h3>
-                      <Link href={`/portfolio/${p.slug}`}>{p.title}</Link>
-                    </h3>
-                    <p className="tags">{p.tags.join(" · ")}</p>
-                    <Link
-                      className="card-link"
-                      href={`/portfolio/${p.slug}`}
-                    >
-                      View project
-                    </Link>
                   </article>
                 </Reveal>
               ))}

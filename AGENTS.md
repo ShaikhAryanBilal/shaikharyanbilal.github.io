@@ -39,7 +39,7 @@ app/
 components/             # reusable UI components
   ThemeInit.tsx         # theme init script injected into <head> via useServerInsertedHTML (no-FOUC)
 lib/                    # helpers, utils, data fetching
-content/                # content as JSON: site, home, work, services, certifications, contact
+content/                # content as JSON: site, home, work, certifications, contact
 public/
   images/               # static images, referenced via next/image
 next.config.ts

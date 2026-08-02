@@ -14,17 +14,17 @@
       "href": "/certifications"
     },
     {
-      "label": "Portfolio",
-      "href": "/portfolio"
+      "label": "Work History",
+      "href": "/work-history"
     },
     {
       "label": "Contact",
-      "href": "/contact"
+      "href": "/#contact"
     }
   ],
   "cta": {
     "label": "Hire me",
-    "href": "/contact"
+    "href": "/#contact"
   },
   "socials": [
     {

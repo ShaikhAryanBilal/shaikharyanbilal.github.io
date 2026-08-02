@@ -1,0 +1,145 @@
+{
+  "kicker": "Work History",
+  "title": "Work History",
+  "lede": "Six years of backend-focused web engineering across Laravel, WordPress, and Strapi — from architecture and APIs to payments, security, and end-to-end delivery.",
+  "summary": "Web Software Engineer with 6+ years of experience delivering custom web applications in Laravel and WordPress. Experienced in backend system architecture, REST API design and migration, and Stripe payment integration. Proficient in AI agentic workflows, LLM orchestration, and agent-driven pipelines to accelerate delivery while maintaining code quality. Focus on clean architecture, performance optimization, application security, and end-to-end delivery as a solo developer.",
+  "skills": [
+    { "category": "Languages", "skills": "PHP" },
+    { "category": "Frameworks", "skills": "Laravel (Queues, Caching, Eloquent, Artisan), WordPress, Strapi, RESTful API design" },
+    { "category": "Databases", "skills": "MySQL, SQL, query optimization, indexing" },
+    { "category": "Frontend", "skills": "HTML5, CSS3, JavaScript, Bootstrap 5, Tailwind CSS" },
+    { "category": "Tools & DevOps", "skills": "Git, npm, Composer" },
+    { "category": "AI & Agentic Workflows", "skills": "LLM orchestration, agent-driven pipelines, RAG (Retrieval-Augmented Generation), prompt engineering, AI-assisted code review" },
+    { "category": "Payment Handling", "skills": "Stripe payments" },
+    { "category": "Engineering Practices", "skills": "OOP, performance optimization, caching strategies, third-party API integration, secure coding" }
+  ],
+  "experience": [
+    {
+      "company": "ARY Digital Network",
+      "roles": [
+        {
+          "role": "Web Software Engineer",
+          "period": "July 2025 - Present",
+          "points": [
+            "Architected and built custom Laravel applications from scratch as solo developer, including system design, database schema, queues, caching, and complete implementation",
+            "Developed a membership management portal with Stripe payment integration, handling architecture, development, and deployment end-to-end",
+            "Built Strapi backends with custom content-types and base/custom REST APIs to power mobile and Next.js web clients",
+            "Integrated third-party platforms and payment gateways into Laravel systems",
+            "Provided daily production support, bug fixes, and performance optimization across Laravel applications"
+          ]
+        },
+        {
+          "role": "WordPress Developer",
+          "period": "October 2023 - June 2025",
+          "points": [
+            "Developed custom WordPress solutions from scratch with custom themes and plugins using PHP, HTML, CSS, and JavaScript",
+            "Built and maintained WordPress REST APIs; optimized legacy APIs and migrated them to native WordPress REST API endpoints",
+            "Integrated third-party platforms and payment gateways (Stripe) into WordPress systems",
+            "Provided daily production support, bug fixes, and performance optimization on WordPress applications"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Digital Graphiks",
+      "roles": [
+        {
+          "role": "WordPress Developer",
+          "period": "May 2023 - October 2023",
+          "points": [
+            "Built custom WordPress sites with Elementor including dynamic layouts, custom templates, and theme integration",
+            "Developed ACF fields and CPTs for structured content and custom page building",
+            "Converted Figma designs into pixel-perfect WordPress pages using Elementor and custom CSS",
+            "Developed WordPress REST APIs for headless content delivery and third-party integrations",
+            "Optimized site performance through caching, image optimization, database cleanup, and query tuning",
+            "Implemented WooCommerce stores with custom product displays, checkout flows, and payment gateways"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "AT&R Digital Marketing Agency",
+      "roles": [
+        {
+          "role": "WordPress Developer",
+          "period": "July 2021 - May 2023",
+          "points": [
+            "Built dynamic UIs with Elementor using custom PHP, ACF, and CPT for structured content",
+            "Developed and managed WooCommerce stores including cart, checkout, payment, and order workflows",
+            "Optimized WordPress performance through caching, asset minification, and database tuning",
+            "Customized WordPress functionality through plugins, hooks, and theme modifications"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Baqai Institute of Diabetology & Endocrinology (BIDE)",
+      "roles": [
+        {
+          "role": "IT Technical Support & Web Developer",
+          "period": "2018 - 2021",
+          "points": [
+            "Provided IT technical support and troubleshooting for internal systems and end users",
+            "Developed and maintained web pages using HTML, CSS, JavaScript, and PHP",
+            "Monitored system performance and resolved infrastructure issues"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Membership Management Portal",
+      "points": [
+        "Full-stack membership lifecycle system built with Laravel and Stripe payments",
+        "Ingests membership applications from external sources and manages individual/corporate memberships through multi-level approval workflows",
+        "Processes online and offline payments with automated billing and generates dynamic reports",
+        "Implements role-based access control with a full activity audit trail",
+        "Bulk legacy data migration via staging tables with PDF and Excel export"
+      ]
+    },
+    {
+      "name": "WMO Donation Website",
+      "org": "World Memon Organization",
+      "note": "Custom Donation, Theme and Membership Platform",
+      "points": [
+        "Built custom WordPress plugins and a theme handling the full membership and donation lifecycle",
+        "Donation plugin with multi-currency cart, tokenized payments, and automated PDF receipts",
+        "REST API bridge syncing membership data with an external management system, including identity deduplication and age validation",
+        "Custom theme with donor dashboard, membership pages, campaign layouts, and conversion-optimized checkout"
+      ],
+      "stack": "PHP, WordPress, Bootstrap 5, JavaScript, MySQL, Stripe API, REST API integration"
+    },
+    {
+      "name": "ARY Sahulat Bazaar",
+      "points": [
+        "Pure traditional WordPress e-commerce platform built with custom themes and plugins using PHP, HTML, CSS, JavaScript, and MySQL",
+        "WooCommerce integration for full product catalog, cart management, checkout flows, and order processing",
+        "Custom payment gateway integration and order management workflows",
+        "Performance optimization through query tuning, caching, and asset optimization"
+      ]
+    },
+    {
+      "name": "A-Sports Backend",
+      "points": [
+        "WordPress native REST API backend for sports content platform delivering data to headless front-end",
+        "Custom REST API endpoints designed for high-performance content delivery and third-party consumption",
+        "API response optimization with pagination, caching, and selective field responses for minimal payload"
+      ]
+    }
+  ],
+  "education": [
+    { "degree": "Bachelors in Business & Information Technology (BBIT)", "school": "Virtual University Of Pakistan", "period": "In Progress" },
+    { "degree": "Intermediate in Computer Science", "school": "Government Degree College For Boys", "period": "2016 - 2019" }
+  ],
+  "certifications": [
+    "Fundamentals of Digital Marketing — Google Digital Garage",
+    "HTML, CSS, Python, SQL — SoloLearn",
+    "Pentesting — Charles Sturt University - IT MASTERS",
+    "Advance Penetration Testing, Web Application Security — Cybrary"
+  ],
+  "languages": [
+    { "language": "Urdu", "level": "Native" },
+    { "language": "English", "level": "Professional working proficiency" }
+  ]
+}

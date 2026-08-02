@@ -3,24 +3,48 @@
   "hero": {
     "tagline": "Web Software Engineer",
     "name": "Shaikh Aryan Bilal",
-    "lede": "I'm a Web Software Engineer with 6+ years of experience designing and developing scalable, secure, and high-performing web applications.",
+    "lede": "Backend-focused Software Engineer with 6+ years of experience in PHP, Laravel, WordPress, and Strapi, and familiar with Next.js for front-end development. I build scalable APIs, secure backend systems, and headless CMS solutions, with a growing interest in generative AI and AI-assisted workflows.",
+    "status": "Available for work",
     "cta": {
       "label": "Send a message",
-      "href": "/contact"
+      "href": "/#contact"
     },
     "ctaSecondary": {
       "label": "View work",
       "href": "/portfolio"
     },
-    "portrait": "/images/portrait.jpg"
+    "portrait": "/images/portrait-2026.jpg"
   },
+  "stats": [
+    { "value": "6+", "label": "Years of experience" },
+    { "value": "29", "label": "Projects shipped" },
+    { "value": "22", "label": "Certifications" }
+  ],
+  "skills": [
+    {
+      "title": "Backend",
+      "items": ["PHP", "Laravel", "WordPress", "REST APIs", "MySQL", "Redis"]
+    },
+    {
+      "title": "Frontend",
+      "items": ["HTML", "CSS", "JavaScript", "jQuery", "Responsive Design"]
+    },
+    {
+      "title": "Security",
+      "items": ["OWASP", "Secure Coding", "Penetration Testing", "Data Protection"]
+    }
+  ],
+  "highlights": [
+    "Backend-first engineering with PHP, Laravel, and WordPress",
+    "Headless & API-driven content delivery for web and mobile",
+    "Security by default — OWASP-aligned from logic to deployment"
+  ],
   "about": [
-    "I’m a Web Software Engineer with over 6 years of experience designing and developing scalable, secure, and high-performing web applications. My expertise spans the full web development lifecycle, with a strong focus on backend engineering using PHP, Laravel, WordPress, REST APIs, and MySQL, while also delivering seamless integrations across the web stack.",
-    "I specialize in building custom web solutions, engineering robust backend architectures, developing APIs, creating WordPress plugins, and designing admin systems that are maintainable, performant, and built to scale. Whether working with Laravel or WordPress, I focus on writing clean, modular code that supports long-term growth and evolving business requirements.",
-    "Beyond backend development, I'm experienced with front-end technologies including HTML, CSS, JavaScript, and jQuery, enabling me to collaborate effectively across the entire application stack and deliver complete web solutions when needed.",
-    "Security is a fundamental part of my engineering process. I follow OWASP best practices, implement secure coding standards, protect applications against common vulnerabilities such as SQL injection, XSS, and CSRF, and prioritize resilience from application logic to deployment.",
-    "I'm also exploring the intersection of web engineering and generative AI, experimenting with intelligent automation, AI-assisted workflows, and personalized user experiences that enhance modern web applications.",
-    "Whether I'm architecting a Laravel application, extending WordPress beyond its core capabilities, or integrating complex APIs, I approach every project with an engineering mindset focused on scalability, security, maintainability, and real-world impact.",
-    "Let's connect if you're looking for a Web Software Engineer who combines deep PHP expertise with modern software engineering practices, secure application design, and a passion for building reliable web systems. I can contribute backend problem-solving skills, share knowledge, and learn from others. My goal is to engineer secure, efficient, and innovative digital systems that solve real business challenges."
+    "I've spent the last 6+ years as a backend-focused web engineer, mostly working with PHP, Laravel, and WordPress, with REST APIs and MySQL tying everything together. I like solving the harder, less visible problems around architecture, speed, and security that make an application actually work well once real users and real traffic show up.",
+    "Most of my work involves building custom backend systems: APIs, admin panels, WordPress plugins, and full application setups designed to grow without breaking. Lately I've also been working with Strapi, using it to build headless CMS backends that send content to websites, apps, and anything else that needs it. I try to keep the code clean and easy to understand, so someone else, or future me, can work with it later without trouble.",
+    "I'm not only backend, though. I know enough HTML, CSS, JavaScript, and jQuery to work across the stack when a project needs it, and I'm also familiar with Next.js, which is useful when pairing a headless CMS like Strapi with a modern front end. It makes working with front-end developers easier too.",
+    "Security is something I think about from the start, not at the end. I follow OWASP best practices and build with common risks in mind, like SQL injection, XSS, and CSRF, so the application stays safe from the ground up.",
+    "Outside of client work, I've been learning more about generative AI, trying to figure out where AI-based tools and automation actually make sense inside a web application, instead of just adding them because it's trendy.",
+    "If you're looking for someone who takes backend work seriously, can work across Laravel, WordPress, and Strapi, and cares about both security and long-term stability, let's connect. I'm always happy to share ideas, learn from other engineers, or help figure out a tough backend problem."
   ]
 }

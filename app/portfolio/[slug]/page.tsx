@@ -42,7 +42,7 @@ function Block({ block }: { block: Block }) {
       );
     case "image":
       return (
-        <figure className="project-figure">
+        <figure className="case-figure">
           <Image src={block.src} alt="" fill sizes="(max-width: 900px) 100vw, 820px" />
         </figure>
       );
@@ -67,23 +67,42 @@ export default async function ProjectPage({
     <>
       <SiteNav />
       <main>
-        <article className="section page-head page-top">
+        <article className="section page-top">
           <div className="wrap">
-            <Link className="project-back" href="/portfolio">
+            <Link className="case-back" href="/portfolio">
               <span aria-hidden="true">←</span> Back to portfolio
             </Link>
 
-            <header className="project-head">
-              <h1 className="section-title">{p.title}</h1>
-              <div className="project-meta">
-                <span>{formattedDate}</span>
-                <span>{p.site}</span>
+            <header className="case-head">
+              <div className="case-tags">
+                {p.tags.map((tag, i) => (
+                  <span key={tag} className={i === 0 ? "tag-pill hot" : "tag-pill"}>
+                    {tag}
+                  </span>
+                ))}
+                <span className="work-year">{formattedDate}</span>
               </div>
-              {p.excerpt ? <p className="project-excerpt">{p.excerpt}</p> : null}
+              <h1 className="case-title">{p.title}</h1>
+              {p.excerpt ? <p className="case-excerpt">{p.excerpt}</p> : null}
+
+              <div className="case-meta">
+                <div>
+                  <p className="case-meta-label">Client</p>
+                  <p className="case-meta-value">{p.site}</p>
+                </div>
+                <div>
+                  <p className="case-meta-label">Date</p>
+                  <p className="case-meta-value">{formattedDate}</p>
+                </div>
+                <div>
+                  <p className="case-meta-label">Stack</p>
+                  <p className="case-meta-value">{p.tags.join(" · ")}</p>
+                </div>
+              </div>
             </header>
 
             {p.image && (
-              <figure className="project-hero">
+              <figure className="case-hero">
                 <Image
                   src={p.image}
                   alt={p.title}
@@ -95,14 +114,20 @@ export default async function ProjectPage({
             )}
 
             {p.body.length > 0 && (
-              <div className="project-body">
+              <div className="case-body">
                 {p.body.map((block, i) => (
                   <Block key={i} block={block} />
                 ))}
               </div>
             )}
 
-            <p className="project-tags">{p.tags.join(" · ")}</p>
+            <p className="case-tags-foot">
+              {p.tags.map((tag, i) => (
+                <span key={tag} className={i === 0 ? "tag-pill hot" : "tag-pill"}>
+                  {tag}
+                </span>
+              ))}
+            </p>
           </div>
         </article>
       </main>

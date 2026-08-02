@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { DM_Sans, PT_Sans } from "next/font/google";
 import ThemeInit from "@/components/ThemeInit";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-sans",
+const dmSans = DM_Sans({
+  variable: "--font-body",
   subsets: ["latin"],
+  weight: ["300", "400", "500"],
+});
+
+const ptSans = PT_Sans({
+  variable: "--font-display",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -20,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable} suppressHydrationWarning>
+    <html lang="en" className={`${dmSans.variable} ${ptSans.variable}`} suppressHydrationWarning>
       <body>
         <ThemeInit />
         {children}

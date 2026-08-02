@@ -347,10 +347,49 @@ const home = {
     tagline: "Web Software Engineer",
     name: SITE.name,
     lede: "I'm a Web Software Engineer with 6+ years of experience designing and developing scalable, secure, and high-performing web applications.",
+    status: "Available for work",
     cta: { label: "Send a message", href: "/contact" },
     ctaSecondary: { label: "View work", href: "/portfolio" },
-    portrait: "/images/portrait.jpg",
+    portrait: "/images/portrait-2026.jpg",
   },
+  stats: [
+    { value: "6+", label: "Years of experience" },
+    { value: String(projects.length), label: "Projects shipped" },
+    { value: String(certifications.images.length), label: "Certifications" },
+    { value: "24/7", label: "Availability" },
+  ],
+  expertise: {
+    title: "What I do",
+    lede: "Backend-first engineering across the web stack — from WordPress and Laravel to headless APIs and e-commerce.",
+    items: [
+      {
+        title: "Website Design & Development",
+        text: "Custom websites that are responsive, scalable, and built to convert — with clean, maintainable code.",
+      },
+      {
+        title: "E-Commerce Development",
+        text: "WooCommerce storefronts with custom payment gateways, inventory handling, and seamless checkout.",
+      },
+      {
+        title: "WordPress Performance",
+        text: "Caching, image and code optimization to cut load times and keep sites fast under real traffic.",
+      },
+      {
+        title: "Security & APIs",
+        text: "OWASP-aligned secure coding and custom REST APIs for headless delivery to web and mobile apps.",
+      },
+    ],
+  },
+  skills: [
+    { title: "Backend", items: ["PHP", "Laravel", "WordPress", "REST APIs", "MySQL", "Redis"] },
+    { title: "Frontend", items: ["HTML", "CSS", "JavaScript", "jQuery", "Responsive Design"] },
+    { title: "Security", items: ["OWASP", "Secure Coding", "Penetration Testing", "Data Protection"] },
+  ],
+  highlights: [
+    "Backend-first engineering with PHP, Laravel, and WordPress",
+    "Headless & API-driven content delivery for web and mobile",
+    "Security by default — OWASP-aligned from logic to deployment",
+  ],
   about: bio,
 };
 

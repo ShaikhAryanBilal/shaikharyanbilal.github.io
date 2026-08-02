@@ -52,10 +52,14 @@ export interface Home {
     tagline: string;
     name: string;
     lede: string;
+    status: string;
     cta: Cta;
     ctaSecondary: Cta;
     portrait: string;
   };
+  stats: { value: string; label: string }[];
+  skills: { title: string; items: string[] }[];
+  highlights: string[];
   about: string[];
 }
 
@@ -64,34 +68,6 @@ export interface Work {
   title: string;
   lede: string;
   projects: Project[];
-}
-
-export interface ServiceDetail {
-  subtitle: string;
-  intro: string;
-  bullets: string[];
-  readyHeading: string;
-  ready: string;
-  cta: string;
-}
-
-export interface Service {
-  num: string;
-  slug: string;
-  title: string;
-  description: string;
-  bullets: string[];
-  detail: ServiceDetail;
-}
-
-export interface Services {
-  kicker: string;
-  title: string;
-  subtitle: string;
-  lede: string;
-  services: Service[];
-  whyChooseUs: { heading: string; text: string };
-  ready: { heading: string; text: string; cta: string };
 }
 
 export interface Certifications {
@@ -110,10 +86,28 @@ export interface Contact {
   location: string;
   hours: string;
   whatsapp: string;
+  whatsappCta: { title: string; text: string; label: string };
   socials: Social[];
-  form: {
-    heading: string;
-    fields: { name: string; label: string; type: string; required: boolean }[];
-    submit: string;
-  };
+}
+
+export interface WorkHistory {
+  kicker: string;
+  title: string;
+  lede: string;
+  summary: string;
+  skills: { category: string; skills: string }[];
+  experience: {
+    company: string;
+    roles: { role: string; period: string; points: string[] }[];
+  }[];
+  projects: {
+    name: string;
+    org?: string;
+    note?: string;
+    stack?: string;
+    points: string[];
+  }[];
+  education: { degree: string; school: string; period: string }[];
+  certifications: string[];
+  languages: { language: string; level: string }[];
 }
