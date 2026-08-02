@@ -95,7 +95,7 @@ export interface WorkHistory {
   title: string;
   lede: string;
   summary: string;
-  skills: { category: string; skills: string }[];
+  skills: { category: string; skills: string[] }[];
   experience: {
     company: string;
     roles: { role: string; period: string; points: string[] }[];

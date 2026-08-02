@@ -1017,7 +1017,6 @@ html[data-theme="light"] .theme-toggle .icon-moon {
    WORK HISTORY
    ============================================================ */
 .resume-summary {
-  max-width: 72ch;
   font-size: 1.05rem;
   line-height: 1.75;
   color: var(--muted);
@@ -1035,34 +1034,49 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 .resume-section-title .dot {
   color: var(--accent);
 }
-.skill-grid {
+.skill-sections {
+  display: flex;
+  flex-direction: column;
+}
+.skill-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  grid-template-columns: 220px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.25rem 0;
 }
-.skill-card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 1.25rem 1.5rem;
-  transition: border-color 0.18s ease;
+.skill-section + .skill-section {
+  border-top: 1px solid var(--border);
 }
-.skill-card:hover {
-  border-color: var(--accent);
-}
-.skill-card h3 {
+.skill-section h3 {
   font-family: var(--font-display);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 0.5rem;
+  padding-top: 0.35rem;
 }
-.skill-card p {
-  font-size: 0.95rem;
-  line-height: 1.6;
+.skill-pills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.skill-pill {
+  font-size: 0.85rem;
+  font-weight: 500;
   color: var(--text);
+  background: var(--card-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  transition: border-color 0.18s ease, color 0.18s ease, background-color 0.18s ease;
+}
+.skill-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
 }
 .exp-list {
   display: flex;
@@ -1268,8 +1282,12 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   .cert-grid {
     grid-template-columns: 1fr;
   }
-  .skill-grid {
+  .skill-section {
     grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  .skill-section h3 {
+    padding-top: 0;
   }
   .exp-role-head {
     flex-direction: column;

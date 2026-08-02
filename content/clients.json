@@ -1,0 +1,151 @@
+{
+  "note": "Historic reference of clients worked with. Hidden from the public site.",
+  "totalClients": 29,
+  "clients": [
+    {
+      "name": "A Sports",
+      "site": "a-sports.tv",
+      "date": "2026-07-11"
+    },
+    {
+      "name": "Al Khaja Stores",
+      "site": "alkhajastores.ae",
+      "date": "2025-01-13"
+    },
+    {
+      "name": "ARY Sahulat Bazar",
+      "site": "arysahulatbazar.pk",
+      "date": "2024-01-01"
+    },
+    {
+      "name": "KGNWT",
+      "site": "kgnwt.org",
+      "date": "2024-05-12"
+    },
+    {
+      "name": "Khanbaba Manpower",
+      "site": "khanbabamanpower.com",
+      "date": "2024-05-12"
+    },
+    {
+      "name": "URecruitment",
+      "site": "urecruitment.org",
+      "date": "2024-05-12"
+    },
+    {
+      "name": "FineDaily",
+      "site": "finedaily.com",
+      "date": "2024-01-01"
+    },
+    {
+      "name": "Braun Household",
+      "site": "braunhousehold.com.pk",
+      "date": "2024-01-01"
+    },
+    {
+      "name": "Veneto Clinic",
+      "site": "venetoclinic.com",
+      "date": "2023-09-03"
+    },
+    {
+      "name": "The Streetmark",
+      "site": "thestreetmark.com",
+      "date": "2023-09-03"
+    },
+    {
+      "name": "Dawn Bread",
+      "site": "dawnbread.com",
+      "date": "2023-09-03"
+    },
+    {
+      "name": "Morning Fresh Bread",
+      "site": "morningfreshbread.com",
+      "date": "2023-09-03"
+    },
+    {
+      "name": "Golf Greens DAMAC",
+      "site": "golfgreensdamac.com",
+      "date": "2023-09-03"
+    },
+    {
+      "name": "United Canada",
+      "site": "unitedcanadainc.ca",
+      "date": "2023-03-15"
+    },
+    {
+      "name": "Schlafender Hase",
+      "site": "www.schlafenderhase.com",
+      "date": "2022-11-06"
+    },
+    {
+      "name": "Turning Point",
+      "site": "turningpt.ca",
+      "date": "2022-08-31"
+    },
+    {
+      "name": "Roots Softwares",
+      "site": "rootssoftwares.com",
+      "date": "2022-08-31"
+    },
+    {
+      "name": "IBA Grads",
+      "site": "ibagrads.com",
+      "date": "2022-08-31"
+    },
+    {
+      "name": "MLI ESL",
+      "site": "mliesl.com",
+      "date": "2022-08-31"
+    },
+    {
+      "name": "MLI Homestay",
+      "site": "mlihomestay.com",
+      "date": "2022-08-31"
+    },
+    {
+      "name": "CISS Canada",
+      "site": "cisscanada.com",
+      "date": "2022-08-31"
+    },
+    {
+      "name": "Bloom Finance",
+      "site": "bloomfinance.app",
+      "date": "2022-08-31"
+    },
+    {
+      "name": "Desert Dudes",
+      "site": "desertdudes.com",
+      "date": "2022-04-16"
+    },
+    {
+      "name": "Sajos Kitchen",
+      "site": "sajoskitchen.com",
+      "date": "2021-12-28"
+    },
+    {
+      "name": "Dolmen Malls",
+      "site": "dolmenmalls.com",
+      "date": "2021-10-20"
+    },
+    {
+      "name": "Faster Pakistan",
+      "site": "fasterpakistan.com",
+      "date": "2021-10-20"
+    },
+    {
+      "name": "International Diabetes & Ramadan Conference",
+      "site": "International Diabetes & Ramadan Conference 2021",
+      "date": "2021-04-10"
+    },
+    {
+      "name": "NADEP & Foot Conference",
+      "site": "NADEP & Foot Conference 2020",
+      "date": "2021-04-09"
+    },
+    {
+      "name": "BIDE — Baqai Institute of Diabetology & Endocrinology",
+      "site": "bide.edu.pk",
+      "date": "2020-04-08"
+    }
+  ]
+}

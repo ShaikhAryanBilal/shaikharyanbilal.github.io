@@ -38,16 +38,22 @@ export default function WorkHistoryPage() {
                 Core skills<span className="dot">.</span>
               </h2>
             </Reveal>
-            <div className="skill-grid">
-              {workHistory.skills.map((s, i) => (
-                <Reveal key={s.category} delay={(i % 2) * 80}>
-                  <div className="skill-card">
+            <Reveal>
+              <div className="skill-sections">
+                {workHistory.skills.map((s, i) => (
+                  <div key={s.category} className="skill-section">
                     <h3>{s.category}</h3>
-                    <p>{s.skills}</p>
+                    <ul className="skill-pills">
+                      {s.skills.map((skill) => (
+                        <li key={skill} className="skill-pill">
+                          {skill}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                </Reveal>
-              ))}
-            </div>
+                ))}
+              </div>
+            </Reveal>
 
             <Reveal>
               <h2 className="resume-section-title">
