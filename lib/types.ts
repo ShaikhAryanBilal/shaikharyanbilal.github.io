@@ -111,3 +111,39 @@ export interface WorkHistory {
   certifications: string[];
   languages: { language: string; level: string }[];
 }
+
+export interface ServiceFaq {
+  q: string;
+  a: string;
+}
+
+export interface ServiceDetail {
+  slug: string;
+  title: string;
+  metaDescription: string;
+  keywords: string[];
+  hero: string;
+  overview: string;
+  whatIBuild: string[];
+  howIWork: string;
+  whyItMatters: string;
+  faq: ServiceFaq[];
+  cta: string;
+}
+
+export interface Services {
+  kicker: string;
+  title: string;
+  hero: string;
+  intro: string;
+  offers: {
+    slug: string;
+    title: string;
+    text: string;
+  }[];
+  background: string;
+  whyWorkWithMe: string;
+  faq: ServiceFaq[];
+  cta: string;
+  services: ServiceDetail[];
+}

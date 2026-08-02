@@ -25,11 +25,6 @@ export default function Typewriter({
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   useEffect(() => {
-    if (reduceMotion) {
-      setStarted(true);
-      setCount(text.length);
-      return;
-    }
     const el = ref.current;
     if (!el) return;
     const io = new IntersectionObserver(
@@ -37,6 +32,7 @@ export default function Typewriter({
         entries.forEach((e) => {
           if (e.isIntersecting) {
             setStarted(true);
+            if (reduceMotion) setCount(text.length);
             io.unobserve(e.target);
           }
         });

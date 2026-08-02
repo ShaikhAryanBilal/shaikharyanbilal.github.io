@@ -1,0 +1,175 @@
+{
+  "kicker": "Services",
+  "title": "Services",
+  "hero": "Backend development built to last. Laravel, WordPress and headless CMS work from an engineer who plans past launch day.",
+  "intro": "I help businesses and teams build backend systems that keep working once real traffic and real users show up. I have spent 6+ years working with PHP, Laravel, WordPress and Strapi. I care about the parts of a project that matter most after launch, like speed, structure and long term upkeep. Below are the main services I offer. Each one uses the same approach. Understand the problem first, then build something that can grow with the business.",
+  "offers": [
+    {
+      "slug": "laravel-php-development",
+      "title": "Laravel and PHP Development",
+      "text": "Custom Laravel applications, APIs and admin panels built with a strong foundation so they can grow without breaking."
+    },
+    {
+      "slug": "wordpress-development",
+      "title": "WordPress Development",
+      "text": "Custom plugins, themes and clean WordPress builds for teams that have outgrown a simple page builder."
+    },
+    {
+      "slug": "strapi-headless-cms",
+      "title": "Strapi and Headless CMS",
+      "text": "Flexible content systems that are not tied to one front end. Built to send content to your website, app or anything else that needs it."
+    }
+  ],
+  "background": "I have worked on 29 projects and hold 22 certifications across backend development and related fields. You can see examples of past work on my Resume page and view my full list of certifications on the Certifications page.",
+  "whyWorkWithMe": "I have spent 6+ years focused mainly on backend engineering. I am not someone who touches the backend now and then. I think about data, structure and growth first. I write code that is easy for someone else, or future me, to pick up later. I work across Laravel, WordPress and Strapi depending on what each project actually needs, instead of forcing every project into the same tool.",
+  "faq": [
+    {
+      "q": "What services do you offer?",
+      "a": "I offer Laravel and PHP development, WordPress development, and Strapi headless CMS development. This covers custom backend systems, APIs, admin panels, plugins, themes and content infrastructure."
+    },
+    {
+      "q": "How do I choose the right service for my project?",
+      "a": "If you need a custom application or API built from scratch, Laravel and PHP is usually the right fit. If you already use WordPress or want a content heavy site, WordPress development is a good match. If you need content that feeds more than one platform, such as a website and an app, Strapi and headless CMS is the best option. If you are not sure, reach out and I can help you decide."
+    },
+    {
+      "q": "Do you work with businesses outside Pakistan?",
+      "a": "Yes. I work remotely with clients in different countries and time zones."
+    },
+    {
+      "q": "How long does a typical project take?",
+      "a": "This depends on the size and scope of the project. A small plugin or feature may take a couple of weeks. A full application or CMS setup can take a few months. I can give a clear timeline once I understand the project."
+    }
+  ],
+  "cta": "Not sure which service fits your project? Let us talk about it.",
+  "services": [
+    {
+      "slug": "laravel-php-development",
+      "title": "Laravel and PHP Development",
+      "metaDescription": "Custom Laravel and PHP backend development. Scalable APIs, admin panels and application structure built to handle real traffic without breaking.",
+      "keywords": [
+        "Laravel developer",
+        "Laravel development services",
+        "PHP backend developer",
+        "custom API development",
+        "Laravel admin panel development"
+      ],
+      "hero": "I build backend systems that keep working once real users show up. Clean structure, fast queries and code that does not fall apart six months later.",
+      "overview": "PHP and Laravel have been the core of my work for more than 6 years. I use them to build custom APIs, admin panels and full application backends. These are the kinds of systems that need to stay fast and stable as traffic and complexity grow. I do not like putting together something that works today and breaks under load next month. I think through the structure first. How data moves, where slow points will show up, and what happens once this system is actually being used by real people.",
+      "whatIBuild": [
+        "Custom Laravel applications built from the ground up",
+        "REST APIs for web, mobile and other third party tools",
+        "Admin panels and internal tools for teams",
+        "Database design and query tuning using MySQL",
+        "Caching with Redis to keep things fast at scale",
+        "Updating and rebuilding older PHP codebases",
+        "Connecting third party services and payment tools"
+      ],
+      "howIWork": "I start by understanding what the application actually needs to do. Not just a list of features, but how it will be used and where it needs to grow. From there I plan the database and the API structure before writing any application code. This means the foundation is solid and easy to build on later. I also test each part as I build it, instead of waiting until the end to see if everything fits together.",
+      "whyItMatters": "Many backend problems do not show up right away. Slow queries under real data, code that is hard to extend, systems that were never built for the traffic they eventually get. I plan for these problems from day one so you are not paying to fix them later. A well built backend also makes it easier and cheaper to add new features down the road.",
+      "faq": [
+        {
+          "q": "Why should I choose Laravel over other PHP frameworks?",
+          "a": "Laravel comes with a lot of built in tools for common tasks like authentication, routing and database work. This means less time spent building basic pieces from scratch and more time spent on what makes your application different."
+        },
+        {
+          "q": "Can you work with an existing Laravel or PHP project?",
+          "a": "Yes. I often step into projects that already exist, whether that means adding new features, fixing performance problems or cleaning up older code."
+        },
+        {
+          "q": "Do you build both the API and the admin panel?",
+          "a": "Yes. I can build the full backend, including the API that powers your app or website and the admin panel your team uses to manage it."
+        },
+        {
+          "q": "What if my current PHP code is old and hard to maintain?",
+          "a": "I can review the code, plan a path to update it safely, and rebuild the parts that need the most work without breaking what already works for your users."
+        }
+      ],
+      "cta": "Have a Laravel or PHP project in mind? Let us talk."
+    },
+    {
+      "slug": "wordpress-development",
+      "title": "WordPress Development",
+      "metaDescription": "Custom WordPress development. Plugins, themes and clean, maintainable sites for teams that need more than a page builder can offer.",
+      "keywords": [
+        "WordPress developer",
+        "custom WordPress plugin development",
+        "WordPress theme development",
+        "WordPress performance optimization"
+      ],
+      "hero": "Custom plugins, clean builds and WordPress sites that do not slow down or break as your content and traffic grow.",
+      "overview": "I build WordPress sites and plugins the same way I build everything else. Speed and long term upkeep come first, not as an afterthought. This could mean a custom plugin built for one specific business need, a theme built from scratch, or fixing up a site that has grown past what a page builder can handle. My focus is always on making sure the site stays reliable as it grows.",
+      "whatIBuild": [
+        "Custom WordPress plugins built for specific business needs",
+        "Custom themes built for speed, not just looks",
+        "API connections linking WordPress to other systems",
+        "Moving sites away from page builders to clean, custom code",
+        "Speed improvements for busy, high traffic WordPress sites",
+        "Ongoing support and maintenance"
+      ],
+      "howIWork": "Most WordPress problems come from using the wrong tool for the job. A stack of five plugins doing the work of one, or a theme that fights you every time you try to change something. I start by figuring out what the site actually needs. Sometimes that means one small custom plugin instead of five bloated ones. Sometimes it means a full custom theme built around your content and your users.",
+      "whyItMatters": "A slow, cluttered WordPress site costs you visitors and, over time, money. I build sites that load fast because they are built lean, and that stay easy to manage because they were planned that way from day one. This also makes future updates simpler and cheaper.",
+      "faq": [
+        {
+          "q": "Do you build custom themes or use existing ones?",
+          "a": "Both, depending on your goals. If you need something unique to your brand and content, a custom theme is usually the better choice. If a solid existing theme fits your needs, I can adjust and extend it instead."
+        },
+        {
+          "q": "Can you fix a slow WordPress site?",
+          "a": "Yes. I look at what is slowing the site down, whether that is plugins, hosting, images or the theme itself, and fix the parts that matter most."
+        },
+        {
+          "q": "Do you build custom plugins for specific business needs?",
+          "a": "Yes. If your business has a process that does not fit into an existing plugin, I can build one that matches exactly what you need."
+        },
+        {
+          "q": "Will my WordPress site be easy for my team to manage after launch?",
+          "a": "Yes. I build with your team in mind, so content updates and everyday changes do not require a developer every time."
+        }
+      ],
+      "cta": "Need a WordPress build that can actually grow with you? Let us talk."
+    },
+    {
+      "slug": "strapi-headless-cms",
+      "title": "Strapi and Headless CMS",
+      "metaDescription": "Headless CMS backends built with Strapi. Flexible content systems that power websites, apps and anything else that need them.",
+      "keywords": [
+        "Strapi developer",
+        "headless CMS development",
+        "Strapi Next.js integration",
+        "content management system development"
+      ],
+      "hero": "Content systems that are not tied to one front end. Built to feed your website, your app or whatever comes next.",
+      "overview": "Headless CMS setups solve a real problem. Content should not be stuck inside one platform or one front end. I use Strapi to build backends that manage content once and send it anywhere it is needed. This could be a Next.js website, a mobile app, or any other tool that needs the data. This work builds on the same skills I use in all my backend projects. Clear API design, clean data structure, and a system that content teams can actually use without needing a developer for every small change.",
+      "whatIBuild": [
+        "Strapi setup and custom content types",
+        "REST and GraphQL APIs for front end use",
+        "Connecting Strapi with Next.js and other modern front ends",
+        "Roles and permissions for content teams",
+        "Moving content from older or single platform CMS tools",
+        "Custom plugins and extensions inside Strapi",
+        "Setup and speed tuning for live, production use"
+      ],
+      "howIWork": "I plan the content structure around how it will actually be used across every place it needs to reach, not just one website. From there I build the API layer to be clear and predictable, so front end developers, including myself when I take on that side of a project, are not fighting the backend to get the data they need.",
+      "whyItMatters": "Content that is stuck inside one platform becomes a problem the moment you need it somewhere else. A well built headless setup with Strapi means your content team keeps a simple workflow, and your front end, now or in the future, can be built with whatever tools make sense at the time.",
+      "faq": [
+        {
+          "q": "What is a headless CMS and why would I need one?",
+          "a": "A headless CMS stores and manages your content separately from how it is displayed. This means the same content can be used on a website, an app, or any other platform, instead of being locked into one system."
+        },
+        {
+          "q": "Is Strapi a good fit if I already use WordPress?",
+          "a": "It depends on your goals. If you need content on more than one platform, or want more control over how content is delivered, Strapi is often a better long term fit than WordPress."
+        },
+        {
+          "q": "Can Strapi work with Next.js?",
+          "a": "Yes. Strapi and Next.js work well together. Strapi manages the content and Next.js handles the front end, giving you a fast site with an easy to use content system behind it."
+        },
+        {
+          "q": "Do content editors need technical skills to use Strapi?",
+          "a": "No. Once the setup is done, content editors can add and update content through a simple dashboard without needing to write any code."
+        }
+      ],
+      "cta": "Thinking about going headless? Let us talk."
+    }
+  ]
+}

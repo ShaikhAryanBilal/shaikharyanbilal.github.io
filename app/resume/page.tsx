@@ -36,7 +36,7 @@ export default function WorkHistoryPage() {
             </Reveal>
             <Reveal>
               <div className="skill-sections">
-                {workHistory.skills.map((s, i) => (
+                {workHistory.skills.map((s) => (
                   <div key={s.category} className="skill-section">
                     <h3>{s.category}</h3>
                     <ul className="skill-pills">

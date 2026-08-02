@@ -10,6 +10,10 @@
       "href": "/"
     },
     {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
       "label": "Certifications",
       "href": "/certifications"
     },
