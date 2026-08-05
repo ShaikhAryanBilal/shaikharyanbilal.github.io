@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi, I'm Shaikh Aryan Bilal 👋
 
-## Getting Started
+I'm a **Web Software Engineer** based in Karachi, Pakistan, with 6+ years of experience building web applications. I focus on the backend — the architecture, speed, and security that make an application actually work well once real users and real traffic show up.
 
-First, run the development server:
+> "I build scalable APIs and secure backend systems — and I care about long-term stability, not just shipping features."
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What I Do
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Backend-first engineering** with PHP, Laravel, and WordPress — building custom APIs, admin panels, plugins, and full application setups designed to grow without breaking.
+- **API-driven content delivery** for web and mobile clients, including Strapi backends with custom content-types and REST APIs.
+- **Security by default** — I follow OWASP best practices from the start, building with SQL injection, XSS, and CSRF in mind rather than patching them later.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I'm also familiar with **Next.js** for front-end work, and I've been exploring **generative AI and agentic workflows** — LLM orchestration, RAG, and AI-assisted pipelines — applying them where they genuinely add value instead of chasing trends.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## My Stack
 
-## Learn More
+| Area | Tech |
+| ---- | ---- |
+| **Backend** | PHP, Laravel, WordPress, Strapi, REST APIs, MySQL, Redis |
+| **Frontend** | HTML, CSS, JavaScript, TypeScript, Next.js, jQuery, Tailwind CSS |
+| **Payments** | Stripe (subscriptions, donation carts, tokenized payments) |
+| **Security** | OWASP, Secure Coding, Penetration Testing, Data Protection |
+| **AI & Workflows** | LLM Orchestration, Agent-Driven Pipelines, RAG, Prompt Engineering |
 
-To learn more about Next.js, take a look at the following resources:
+## A Few Things I've Built
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Membership Management Portal** — full-stack membership lifecycle built with Laravel and Stripe, with multi-level approval workflows, automated billing, and an activity audit trail.
+- **WMO Donation Website** (World Memon Organization) — custom WordPress donation platform with multi-currency cart, tokenized payments, automated PDF receipts, and a REST API bridge syncing with an external management system.
+- **ARY Digital Website** — Strapi-based headless backend powering the site's structured content delivery via REST APIs, with granular role-based access control.
+- **A-Sports Backend** — WordPress native REST API backend delivering high-performance content to a headless front-end.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Stats
 
-## Deploy on Vercel
+- **6+ years** of experience
+- **29 projects** shipped
+- **22 certifications**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Let's Connect
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you're looking for someone who takes backend work seriously, can work across Laravel and WordPress, and cares about both security and long-term stability — I'd love to talk.
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/shaikh-aryan-bilal/)
+- 🐙 [GitHub](https://github.com/ShaikhAryanBilal/)
+- 💬 [WhatsApp](https://api.whatsapp.com/send?phone=923472738186)
+- ✉️ shaikharyan637@gmail.com
+
+**Available 24/7** — always happy to share ideas, learn from other engineers, or help figure out a tough backend problem.
