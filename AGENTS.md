@@ -113,10 +113,13 @@ Before considering a task complete:
 
 ## Deployment Notes
 
-- Pushing to `main` triggers an automatic Vercel deployment — no manual
-  deploy steps needed.
-- Vercel preview deployments are created for branches/PRs automatically.
-- No GitHub Actions or CI config needed for deployment (Vercel handles it).
+- Pushing to `main` triggers an automatic GitHub Pages deploy via
+  `.github/workflows/deploy.yml` (static export via `output: "export"`).
+- The build output is written to `out/` and published by the Pages action.
+- Live URL: https://shaikharyanbilal.github.io (source repo:
+  `ShaikhAryanBilal/shaikharyanbilal.github.io`).
+- The live `siteUrl` is defined in `lib/content.ts` — update it there, not
+  per-file, when the domain changes.
 
 ## Efficiency Notes for Agents
 

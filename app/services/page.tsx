@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import Typewriter from "@/components/Typewriter";
-import { services } from "@/lib/content";
+import { services, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -24,7 +24,7 @@ export default function ServicesPage() {
     provider: {
       "@type": "Person",
       name: "Shaikh Aryan Bilal",
-      url: "https://shaikharyanbilal.vercel.app",
+      url: siteUrl,
       sameAs: [
         "https://www.linkedin.com/in/shaikh-aryan-bilal/",
         "https://github.com/ShaikhAryanBilal/",

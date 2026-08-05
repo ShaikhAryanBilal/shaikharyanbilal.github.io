@@ -5,10 +5,10 @@ import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import Typewriter from "@/components/Typewriter";
-import { services } from "@/lib/content";
+import { services, siteUrl } from "@/lib/content";
 import { notFound } from "next/navigation";
 
-const siteUrl = "https://shaikharyanbilal.vercel.app";
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return services.services.map((s) => ({ slug: s.slug }));

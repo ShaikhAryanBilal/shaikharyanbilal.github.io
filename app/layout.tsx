@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, PT_Sans } from "next/font/google";
 import ThemeInit from "@/components/ThemeInit";
+import { siteUrl } from "@/lib/content";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -15,7 +16,6 @@ const ptSans = PT_Sans({
   weight: ["400", "700"],
 });
 
-const siteUrl = "https://shaikharyanbilal.vercel.app";
 const siteName = "Shaikh Aryan Bilal";
 const description =
   "Backend-focused Software Engineer with 6+ years of experience in PHP, Laravel, WordPress, and Strapi — building scalable APIs and secure backend systems.";

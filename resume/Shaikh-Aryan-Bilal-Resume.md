@@ -7,7 +7,7 @@
 - **Phone:** +92 347 2738186
 - **Email:** [shaikharyan637@gmail.com](mailto:shaikharyan637@gmail.com)
 - **GitHub:** [github.com/ShaikhAryanBilal](https://github.com/ShaikhAryanBilal)
-- **Website:** [shaikharyanbilal.vercel.app](https://shaikharyanbilal.vercel.app/)
+- **Website:** [shaikharyanbilal.github.io](https://shaikharyanbilal.github.io/)
 
 ---
 

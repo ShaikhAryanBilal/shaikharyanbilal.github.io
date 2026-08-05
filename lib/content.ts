@@ -7,6 +7,8 @@ import workHistoryData from "@/content/workHistory.json";
 import servicesData from "@/content/services.json";
 import type { Site, Home, Work, Certifications, Contact, WorkHistory, Services } from "@/lib/types";
 
+export const siteUrl = "https://shaikharyanbilal.github.io";
+
 export const site: Site = siteData as unknown as Site;
 export const home: Home = homeData as unknown as Home;
 export const work: Work = workData as unknown as Work;

@@ -1,6 +1,4 @@
-import { site, home, services, workHistory } from "@/lib/content";
-
-const siteUrl = "https://shaikharyanbilal.vercel.app";
+import { site, home, services, workHistory, siteUrl } from "@/lib/content";
 
 function buildLlmsTxt(): string {
   const skills = workHistory.skills
@@ -36,6 +34,8 @@ ${serviceList}
 - [Contact](${siteUrl}/#contact): WhatsApp, email, and social links
 `;
 }
+
+export const dynamic = "force-static";
 
 export function GET() {
   return new Response(buildLlmsTxt(), {

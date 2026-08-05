@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
-import { services } from "@/lib/content";
+import { services, siteUrl } from "@/lib/content";
 
-const siteUrl = "https://shaikharyanbilal.vercel.app";
+export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
