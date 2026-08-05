@@ -18,7 +18,7 @@ const ptSans = PT_Sans({
 const siteUrl = "https://shaikharyanbilal.vercel.app";
 const siteName = "Shaikh Aryan Bilal";
 const description =
-  "Backend-focused Software Engineer with 6+ years of experience in PHP, Laravel, WordPress, and Strapi — building scalable APIs, secure backend systems, and headless CMS solutions.";
+  "Backend-focused Software Engineer with 6+ years of experience in PHP, Laravel, WordPress, and Strapi — building scalable APIs and secure backend systems.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

@@ -1,8 +1,8 @@
 {
   "kicker": "Services",
   "title": "Services",
-  "hero": "Backend development built to last. Laravel, WordPress and headless CMS work from an engineer who plans past launch day.",
-  "intro": "I help businesses and teams build backend systems that keep working once real traffic and real users show up. I have spent 6+ years working with PHP, Laravel, WordPress and Strapi. I care about the parts of a project that matter most after launch, like speed, structure and long term upkeep. Below are the main services I offer. Each one uses the same approach. Understand the problem first, then build something that can grow with the business.",
+  "hero": "Backend development built to last. Laravel and WordPress work from an engineer who plans past launch day.",
+  "intro": "I help businesses and teams build backend systems that keep working once real traffic and real users show up. I have spent 6+ years working with PHP, Laravel and WordPress. I care about the parts of a project that matter most after launch, like speed, structure and long term upkeep. Below are the main services I offer. Each one uses the same approach. Understand the problem first, then build something that can grow with the business.",
   "offers": [
     {
       "slug": "laravel-php-development",
@@ -13,23 +13,18 @@
       "slug": "wordpress-development",
       "title": "WordPress Development",
       "text": "Custom plugins, themes and clean WordPress builds for teams that have outgrown a simple page builder."
-    },
-    {
-      "slug": "strapi-headless-cms",
-      "title": "Strapi and Headless CMS",
-      "text": "Flexible content systems that are not tied to one front end. Built to send content to your website, app or anything else that needs it."
     }
   ],
   "background": "I have worked on 29 projects and hold 22 certifications across backend development and related fields. You can see examples of past work on my Resume page and view my full list of certifications on the Certifications page.",
-  "whyWorkWithMe": "I have spent 6+ years focused mainly on backend engineering. I am not someone who touches the backend now and then. I think about data, structure and growth first. I write code that is easy for someone else, or future me, to pick up later. I work across Laravel, WordPress and Strapi depending on what each project actually needs, instead of forcing every project into the same tool.",
+  "whyWorkWithMe": "I have spent 6+ years focused mainly on backend engineering. I am not someone who touches the backend now and then. I think about data, structure and growth first. I write code that is easy for someone else, or future me, to pick up later. I work across Laravel and WordPress depending on what each project actually needs, instead of forcing every project into the same tool.",
   "faq": [
     {
       "q": "What services do you offer?",
-      "a": "I offer Laravel and PHP development, WordPress development, and Strapi headless CMS development. This covers custom backend systems, APIs, admin panels, plugins, themes and content infrastructure."
+      "a": "I offer Laravel and PHP development and WordPress development. This covers custom backend systems, APIs, admin panels, plugins, themes and content infrastructure."
     },
     {
       "q": "How do I choose the right service for my project?",
-      "a": "If you need a custom application or API built from scratch, Laravel and PHP is usually the right fit. If you already use WordPress or want a content heavy site, WordPress development is a good match. If you need content that feeds more than one platform, such as a website and an app, Strapi and headless CMS is the best option. If you are not sure, reach out and I can help you decide."
+      "a": "If you need a custom application or API built from scratch, Laravel and PHP is usually the right fit. If you already use WordPress or want a content heavy site, WordPress development is a good match. If you are not sure, reach out and I can help you decide."
     },
     {
       "q": "Do you work with businesses outside Pakistan?",
@@ -127,49 +122,6 @@
         }
       ],
       "cta": "Need a WordPress build that can actually grow with you? Let us talk."
-    },
-    {
-      "slug": "strapi-headless-cms",
-      "title": "Strapi and Headless CMS",
-      "metaDescription": "Headless CMS backends built with Strapi. Flexible content systems that power websites, apps and anything else that need them.",
-      "keywords": [
-        "Strapi developer",
-        "headless CMS development",
-        "Strapi Next.js integration",
-        "content management system development"
-      ],
-      "hero": "Content systems that are not tied to one front end. Built to feed your website, your app or whatever comes next.",
-      "overview": "Headless CMS setups solve a real problem. Content should not be stuck inside one platform or one front end. I use Strapi to build backends that manage content once and send it anywhere it is needed. This could be a Next.js website, a mobile app, or any other tool that needs the data. This work builds on the same skills I use in all my backend projects. Clear API design, clean data structure, and a system that content teams can actually use without needing a developer for every small change.",
-      "whatIBuild": [
-        "Strapi setup and custom content types",
-        "REST and GraphQL APIs for front end use",
-        "Connecting Strapi with Next.js and other modern front ends",
-        "Roles and permissions for content teams",
-        "Moving content from older or single platform CMS tools",
-        "Custom plugins and extensions inside Strapi",
-        "Setup and speed tuning for live, production use"
-      ],
-      "howIWork": "I plan the content structure around how it will actually be used across every place it needs to reach, not just one website. From there I build the API layer to be clear and predictable, so front end developers, including myself when I take on that side of a project, are not fighting the backend to get the data they need.",
-      "whyItMatters": "Content that is stuck inside one platform becomes a problem the moment you need it somewhere else. A well built headless setup with Strapi means your content team keeps a simple workflow, and your front end, now or in the future, can be built with whatever tools make sense at the time.",
-      "faq": [
-        {
-          "q": "What is a headless CMS and why would I need one?",
-          "a": "A headless CMS stores and manages your content separately from how it is displayed. This means the same content can be used on a website, an app, or any other platform, instead of being locked into one system."
-        },
-        {
-          "q": "Is Strapi a good fit if I already use WordPress?",
-          "a": "It depends on your goals. If you need content on more than one platform, or want more control over how content is delivered, Strapi is often a better long term fit than WordPress."
-        },
-        {
-          "q": "Can Strapi work with Next.js?",
-          "a": "Yes. Strapi and Next.js work well together. Strapi manages the content and Next.js handles the front end, giving you a fast site with an easy to use content system behind it."
-        },
-        {
-          "q": "Do content editors need technical skills to use Strapi?",
-          "a": "No. Once the setup is done, content editors can add and update content through a simple dashboard without needing to write any code."
-        }
-      ],
-      "cta": "Thinking about going headless? Let us talk."
     }
   ]
 }

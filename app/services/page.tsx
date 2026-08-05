@@ -10,7 +10,7 @@ import { services } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Backend development services from Shaikh Aryan Bilal with 6+ years of experience. Laravel, WordPress and Strapi work built to last and grow with your business.",
+    "Backend development services from Shaikh Aryan Bilal with 6+ years of experience. Laravel and WordPress work built to last and grow with your business.",
   alternates: {
     canonical: "/services",
   },
