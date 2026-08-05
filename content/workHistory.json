@@ -89,6 +89,14 @@
   ],
   "projects": [
     {
+      "name": "ARY Digital Website",
+      "points": [
+        "Strapi-based backend powering the ARY Digital website content",
+        "Tailored content types designed to match editorial workflows and content requirements",
+        "Role-based access control for managing user permissions across admin roles"
+      ]
+    },
+    {
       "name": "A-Sports Backend",
       "points": [
         "WordPress native REST API backend for sports content platform delivering data to headless front-end",

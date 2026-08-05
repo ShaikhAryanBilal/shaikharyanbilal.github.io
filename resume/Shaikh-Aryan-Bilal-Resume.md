@@ -74,6 +74,11 @@ July 2021 - May 2023
 
 ## Projects
 
+### ARY Digital Website
+- Strapi-based backend powering the ARY Digital website content
+- Tailored content types designed to match editorial workflows and content requirements
+- Role-based access control for managing user permissions across admin roles
+
 ### A-Sports Backend
 - WordPress native REST API backend for sports content platform delivering data to headless front-end
 - Custom REST API endpoints designed for high-performance content delivery and third-party consumption
