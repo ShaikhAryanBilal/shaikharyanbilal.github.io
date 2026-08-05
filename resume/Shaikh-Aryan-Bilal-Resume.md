@@ -75,9 +75,10 @@ July 2021 - May 2023
 ## Projects
 
 ### ARY Digital Website
-- Strapi-based backend powering the ARY Digital website content
-- Tailored content types designed to match editorial workflows and content requirements
-- Role-based access control for managing user permissions across admin roles
+- Architected and built a Strapi-based headless backend as the content backbone for the ARY Digital website, powering structured content delivery via REST APIs
+- Designed tailored content types aligned with editorial workflows, enabling efficient content authoring, publishing, and management at scale
+- Implemented granular role-based access control (RBAC) to secure the admin panel and enforce role-specific permissions across content teams
+- Optimized API responses with pagination, caching, and selective fields to ensure fast, reliable content delivery to web front-ends
 
 ### A-Sports Backend
 - WordPress native REST API backend for sports content platform delivering data to headless front-end
