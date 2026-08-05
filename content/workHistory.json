@@ -89,6 +89,14 @@
   ],
   "projects": [
     {
+      "name": "A-Sports Backend",
+      "points": [
+        "WordPress native REST API backend for sports content platform delivering data to headless front-end",
+        "Custom REST API endpoints designed for high-performance content delivery and third-party consumption",
+        "API response optimization with pagination, caching, and selective field responses for minimal payload"
+      ]
+    },
+    {
       "name": "Membership Management Portal",
       "points": [
         "Full-stack membership lifecycle system built with Laravel and Stripe payments",
@@ -117,14 +125,6 @@
         "WooCommerce integration for full product catalog, cart management, checkout flows, and order processing",
         "Custom payment gateway integration and order management workflows",
         "Performance optimization through query tuning, caching, and asset optimization"
-      ]
-    },
-    {
-      "name": "A-Sports Backend",
-      "points": [
-        "WordPress native REST API backend for sports content platform delivering data to headless front-end",
-        "Custom REST API endpoints designed for high-performance content delivery and third-party consumption",
-        "API response optimization with pagination, caching, and selective field responses for minimal payload"
       ]
     }
   ],

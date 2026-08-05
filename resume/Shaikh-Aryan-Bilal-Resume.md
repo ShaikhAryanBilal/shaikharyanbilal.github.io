@@ -74,6 +74,11 @@ July 2021 - May 2023
 
 ## Projects
 
+### A-Sports Backend
+- WordPress native REST API backend for sports content platform delivering data to headless front-end
+- Custom REST API endpoints designed for high-performance content delivery and third-party consumption
+- API response optimization with pagination, caching, and selective field responses for minimal payload
+
 ### Membership Management Portal
 - Full-stack membership lifecycle system built with Laravel, and Stripe payments
 - Ingests membership applications from external sources and manages individual/corporate memberships through multi-level approval workflows
@@ -94,11 +99,6 @@ World Memon Organization | Custom Donation, Theme and Membership Platform
 - WooCommerce integration for full product catalog, cart management, checkout flows, and order processing
 - Custom payment gateway integration and order management workflows
 - Performance optimization through query tuning, caching, and asset optimization
-
-### A-Sports Backend
-- WordPress native REST API backend for sports content platform delivering data to headless front-end
-- Custom REST API endpoints designed for high-performance content delivery and third-party consumption
-- API response optimization with pagination, caching, and selective field responses for minimal payload
 
 ---
 
