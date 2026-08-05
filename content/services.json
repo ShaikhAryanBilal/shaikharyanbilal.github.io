@@ -5,6 +5,11 @@
   "intro": "I help businesses and teams build backend systems that keep working once real traffic and real users show up. I have spent 6+ years working with PHP, Laravel and WordPress. I care about the parts of a project that matter most after launch, like speed, structure and long term upkeep. Below are the main services I offer. Each one uses the same approach. Understand the problem first, then build something that can grow with the business.",
   "offers": [
     {
+      "slug": "custom-software-solutions",
+      "title": "Custom Software Solutions",
+      "text": "Tailored software built around exactly what your business needs, instead of what an off-the-shelf product forces you into."
+    },
+    {
       "slug": "laravel-php-development",
       "title": "Laravel and PHP Development",
       "text": "Custom Laravel applications, APIs and admin panels built with a strong foundation so they can grow without breaking."
@@ -20,11 +25,11 @@
   "faq": [
     {
       "q": "What services do you offer?",
-      "a": "I offer Laravel and PHP development and WordPress development. This covers custom backend systems, APIs, admin panels, plugins, themes and content infrastructure."
+      "a": "I offer custom software solutions, Laravel and PHP development, and WordPress development. This covers tailored business software, custom backend systems, APIs, admin panels, plugins, themes and content infrastructure."
     },
     {
       "q": "How do I choose the right service for my project?",
-      "a": "If you need a custom application or API built from scratch, Laravel and PHP is usually the right fit. If you already use WordPress or want a content heavy site, WordPress development is a good match. If you are not sure, reach out and I can help you decide."
+      "a": "If you need a system built around a specific business process that does not fit existing tools, custom software solutions is usually the right fit. If you need a custom application or API built from scratch, Laravel and PHP is a strong choice. If you already use WordPress or want a content heavy site, WordPress development is a good match. If you are not sure, reach out and I can help you decide."
     },
     {
       "q": "Do you work with businesses outside Pakistan?",
@@ -37,6 +42,49 @@
   ],
   "cta": "Not sure which service fits your project? Let us talk about it.",
   "services": [
+    {
+      "slug": "custom-software-solutions",
+      "title": "Custom Software Solutions",
+      "metaDescription": "Custom software development tailored to your exact business needs. Systems, tools and platforms designed around your workflows instead of generic templates.",
+      "keywords": [
+        "custom software development",
+        "tailored software solutions",
+        "custom web application development",
+        "business software development",
+        "custom systems development"
+      ],
+      "hero": "Software built around your actual needs, not a template. Systems designed for the way your business works, not the other way around.",
+      "overview": "Not every business problem fits neatly into an off-the-shelf product. Custom software is for the parts of your business that need to work the way you do. I take the time to understand how your team actually operates, then build a system that fits that workflow. This could be a tool that replaces a messy spreadsheet process, a portal that connects customers to your services, or a platform that automates a repetitive part of your operation. Whatever the problem, the goal is the same. Software that does the job well today and is easy to change as your business grows.",
+      "whatIBuild": [
+        "Business tools and portals built around your exact workflow",
+        "Web applications that replace manual or spreadsheet based processes",
+        "Member, client and customer management systems",
+        "Automation that removes repetitive manual work",
+        "Integration between the tools your business already uses",
+        "Systems built on PHP, Laravel or WordPress, whichever fits best"
+      ],
+      "howIWork": "I start with the problem, not the technology. We talk through how your business works today, where the friction is, and what you want the end result to feel like. Only then do I decide on the stack. I build in stages and keep you in the loop, so there are no surprises at the end. When it is live, you get software that fits how your team works, with room to grow.",
+      "whyItMatters": "Off-the-shelf tools make you adapt to them. Custom software adapts to you. That means fewer workarounds, less manual data entry, and a system your team actually wants to use. Because it is built around your process from day one, it is also cheaper to maintain and easier to extend later than forcing a generic product to fit.",
+      "faq": [
+        {
+          "q": "When does custom software make sense?",
+          "a": "When an existing tool almost works but not quite, or when your team is spending too much time on manual workarounds. If the cost of those workarounds keeps growing, a tailored system usually pays for itself."
+        },
+        {
+          "q": "Can you work around the tools we already use?",
+          "a": "Yes. I often build systems that connect to existing software instead of replacing it, so your team does not have to learn everything from scratch."
+        },
+        {
+          "q": "How do you decide which technology to build with?",
+          "a": "I pick based on the problem. Laravel for solid application backends, WordPress for content heavy builds, or a custom headless CMS when that is the right fit. The decision follows the project, not the other way around."
+        },
+        {
+          "q": "What if my needs change after launch?",
+          "a": "That is expected. Custom software is built to change. Because it is written around your process, adding new features or adjusting existing ones is straightforward rather than a fight with the tool."
+        }
+      ],
+      "cta": "Have a process that needs its own software? Let us talk."
+    },
     {
       "slug": "laravel-php-development",
       "title": "Laravel and PHP Development",
