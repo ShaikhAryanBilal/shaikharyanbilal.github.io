@@ -115,6 +115,11 @@ Before considering a task complete:
 
 - Pushing to `main` triggers an automatic GitHub Pages deploy via
   `.github/workflows/deploy.yml` (static export via `output: "export"`).
+- **Prerequisite (one-time, manual):** repo Settings → Pages → Source must be
+  **"GitHub Actions"**, NOT "Deploy from a branch". If it's left on branch,
+  GitHub's built-in Jekyll deployment overrides the Actions artifact and the
+  site serves the README instead of the exported site. Verify after enabling:
+  no "pages build and deployment" workflow should appear in the Actions list.
 - The build output is written to `out/` and published by the Pages action.
 - Live URL: https://shaikharyanbilal.github.io (source repo:
   `ShaikhAryanBilal/shaikharyanbilal.github.io`).
