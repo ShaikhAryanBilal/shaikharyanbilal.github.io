@@ -26,7 +26,7 @@ ${serviceList}
 ## Portfolio and background
 
 - [Resume](${siteUrl}/resume): Full work history, projects, education, and certifications
-- [Portfolio](${siteUrl}/portfolio): Selected sites and applications built or shipped
+- [Services](${siteUrl}/services): All offered services, with in-depth detail pages
 - [Certifications](${siteUrl}/certifications): ${home.stats.find((s) => s.label === "Certifications")?.value ?? "22"} certifications across backend development and security
 
 ## Contact

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { DM_Sans, PT_Sans } from "next/font/google";
 import ThemeInit from "@/components/ThemeInit";
 import { siteUrl } from "@/lib/content";
@@ -22,6 +22,7 @@ const description =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  applicationName: siteName,
   title: {
     default: `${siteName} — Web Software Engineer`,
     template: `%s — ${siteName}`,
@@ -72,6 +73,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+  ],
+  colorScheme: "dark light",
 };
 
 export default function RootLayout({

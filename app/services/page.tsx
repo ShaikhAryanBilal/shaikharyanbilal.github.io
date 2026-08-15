@@ -10,7 +10,17 @@ import { services, siteUrl } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Backend development services from Shaikh Aryan Bilal with 6+ years of experience. Laravel and WordPress work built to last and grow with your business.",
+    "Backend development services from Shaikh Aryan Bilal with 6+ years of experience. Laravel, PHP, WordPress and Strapi development, REST and GraphQL APIs, web security audits, migrations, performance optimization and ongoing support.",
+  keywords: [
+    "Laravel development services",
+    "PHP backend development",
+    "WordPress development services",
+    "Strapi development",
+    "API development services",
+    "web security audit",
+    "backend performance optimization",
+    "website migration services",
+  ],
   alternates: {
     canonical: "/services",
   },

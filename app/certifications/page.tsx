@@ -5,15 +5,47 @@ import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import Typewriter from "@/components/Typewriter";
 import CertGrid from "@/components/CertGrid";
-import { certifications } from "@/lib/content";
+import { certifications, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Certifications",
+  description:
+    "22 professional certifications earned by Shaikh Aryan Bilal across backend development, web application security, penetration testing, ethical hacking and related fields.",
+  keywords: [
+    "Shaikh Aryan Bilal certifications",
+    "web application security certification",
+    "penetration testing certificate",
+    "ethical hacking certification",
+    "backend developer certifications",
+    "Laravel certification",
+    "web security certifications",
+  ],
+  alternates: {
+    canonical: "/certifications",
+  },
 };
 
 export default function CertificationsPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Certifications",
+        item: `${siteUrl}/certifications`,
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <SiteNav />
       <main>
         <section className="section page-top">

@@ -1,8 +1,8 @@
 {
   "kicker": "Services",
   "title": "Services",
-  "hero": "Backend development built to last. Laravel and WordPress work from an engineer who plans past launch day.",
-  "intro": "I help businesses and teams build backend systems that keep working once real traffic and real users show up. I have spent 6+ years working with PHP, Laravel and WordPress. I care about the parts of a project that matter most after launch, like speed, structure and long term upkeep. Below are the main services I offer. Each one uses the same approach. Understand the problem first, then build something that can grow with the business.",
+  "hero": "Backend development built to last. Laravel, WordPress and Strapi work from an engineer who plans past launch day.",
+  "intro": "I help businesses and teams build backend systems that keep working once real traffic and real users show up. I have spent 6+ years working with PHP, Laravel, WordPress and Strapi, and I hold certifications in web application security. I care about the parts of a project that matter most after launch, like speed, structure, security and long term upkeep. Below are the main services I offer. Each one uses the same approach. Understand the problem first, then build something that can grow with the business.",
   "offers": [
     {
       "slug": "custom-software-solutions",
@@ -18,18 +18,48 @@
       "slug": "wordpress-development",
       "title": "WordPress Development",
       "text": "Custom plugins, themes and clean WordPress builds for teams that have outgrown a simple page builder."
+    },
+    {
+      "slug": "strapi-web-app-development",
+      "title": "Strapi Based Web App Development",
+      "text": "Headless CMS and content powered applications built on Strapi, with fast APIs and full control over how your content is delivered."
+    },
+    {
+      "slug": "web-security-audit-hardening",
+      "title": "Web Security Audit & Hardening",
+      "text": "Security reviews and hardening for Laravel, WordPress and Strapi applications, backed by web application security and penetration testing certifications."
+    },
+    {
+      "slug": "api-development-integration",
+      "title": "API Development & Integration",
+      "text": "Custom REST and GraphQL APIs, plus third party integrations that connect your applications to payments, webhooks, CRMs and other services."
+    },
+    {
+      "slug": "migration-modernization",
+      "title": "Migration & Modernization",
+      "text": "Safe upgrades from legacy PHP, older Laravel versions or WordPress into modern, maintainable systems including Strapi."
+    },
+    {
+      "slug": "backend-performance-optimization",
+      "title": "Backend Performance Optimization",
+      "text": "Faster queries, better caching and leaner code. Measured speed improvements for applications that need to handle real traffic."
+    },
+    {
+      "slug": "maintenance-support",
+      "title": "Ongoing Maintenance & Support",
+      "text": "Security updates, bug fixes and upkeep retainers that keep your Laravel, WordPress or Strapi system healthy after launch."
     }
   ],
   "background": "I have worked on 29 projects and hold 22 certifications across backend development and related fields. You can see examples of past work on my Resume page and view my full list of certifications on the Certifications page.",
-  "whyWorkWithMe": "I have spent 6+ years focused mainly on backend engineering. I am not someone who touches the backend now and then. I think about data, structure and growth first. I write code that is easy for someone else, or future me, to pick up later. I work across Laravel and WordPress depending on what each project actually needs, instead of forcing every project into the same tool.",
+  "whyWorkWithMe": "I have spent 6+ years focused mainly on backend engineering. I am not someone who touches the backend now and then. I think about data, structure and growth first. I write code that is easy for someone else, or future me, to pick up later. I work across Laravel, WordPress and Strapi depending on what each project actually needs, instead of forcing every project into the same tool.",
   "faq": [
     {
       "q": "What services do you offer?",
-      "a": "I offer custom software solutions, Laravel and PHP development, and WordPress development. This covers tailored business software, custom backend systems, APIs, admin panels, plugins, themes and content infrastructure."
+      "a": "I offer custom software solutions, Laravel and PHP development, WordPress development, Strapi based web app development, web security audits and hardening, API development and integration, migration and modernization, backend performance optimization, and ongoing maintenance and support. This covers tailored business software, custom backend systems, APIs, admin panels, plugins, themes, content infrastructure, security, performance and long term upkeep."
     },
     {
       "q": "How do I choose the right service for my project?",
-      "a": "If you need a system built around a specific business process that does not fit existing tools, custom software solutions is usually the right fit. If you need a custom application or API built from scratch, Laravel and PHP is a strong choice. If you already use WordPress or want a content heavy site, WordPress development is a good match. If you are not sure, reach out and I can help you decide."
+      "a": "If you need a system built around a specific business process that does not fit existing tools, custom software solutions is usually the right fit. If you need a custom application or API built from scratch, Laravel and PHP is a strong choice. If you already use WordPress or want a content heavy site, WordPress development is a good match. If you need structured content delivered to more than one place, or a content powered application, Strapi based development is the right fit. If you are connecting existing tools or need a solid API layer, API development and integration covers that. If you are worried about security, or need to meet a security requirement, a security audit and hardening is the right starting point. If your system is old and getting harder to maintain, migration and modernization is worth considering. If the site is slow and growing slower, start with backend performance optimization. And if you already have a system you want to keep healthy, ongoing maintenance and support keeps it that way. If you are not sure, reach out and I can help you decide."
     },
     {
       "q": "Do you work with businesses outside Pakistan?",
@@ -170,6 +200,271 @@
         }
       ],
       "cta": "Need a WordPress build that can actually grow with you? Let us talk."
+    },
+    {
+      "slug": "strapi-web-app-development",
+      "title": "Strapi Based Web App Development",
+      "metaDescription": "Headless CMS and content powered web applications built with Strapi. Fast APIs, structured content and a backend your team can actually manage.",
+      "keywords": [
+        "Strapi developer",
+        "headless CMS development",
+        "Strapi web application development",
+        "content API development",
+        "Strapi backend development"
+      ],
+      "hero": "Content powered applications built on Strapi. A clean backend your team controls, delivered through a fast API to any frontend.",
+      "overview": "Strapi is a headless CMS, which means content lives in a structured backend and gets delivered through an API instead of being tied to a website template. I build Strapi backends that give your team a simple dashboard to manage content, while the frontend stays fast, flexible and fully under your control. This works well for sites and applications that need the same content in more than one place, like a website and a mobile app, or that need to scale without being locked into one template system.",
+      "whatIBuild": [
+        "Strapi content models and backend structure designed for your content",
+        "REST and GraphQL APIs that deliver content to web and mobile",
+        "Custom Strapi plugins and field types for specific business needs",
+        "Admin panel configuration that keeps content editing simple for your team",
+        "Connecting Strapi to Laravel, WordPress or any frontend",
+        "Migrating content from WordPress or other CMSes into Strapi",
+        "Performance and security hardening for production Strapi setups"
+      ],
+      "howIWork": "I start by mapping out what content your business manages and how it needs to be structured. Then I build the Strapi backend around that structure, so your team gets an admin panel that matches how they actually work. From there I wire up the API and the frontend, whether that is a Laravel app, WordPress or a modern JavaScript frontend, and make sure content edits flow through without friction.",
+      "whyItMatters": "A headless CMS keeps your content in one place and your frontend free to change. That means your team can update content without touching code, and you are never locked into a single template or platform. Because content is delivered through a fast, structured API, sites and apps stay quick, scale cleanly and are easier to extend as your needs grow.",
+      "faq": [
+        {
+          "q": "What is a headless CMS and why would I use Strapi?",
+          "a": "A headless CMS separates content management from the frontend. Strapi stores your content and serves it through an API, so you can use that same content on a website, a mobile app or anywhere else. You get a clean admin panel for your team and total freedom over the frontend."
+        },
+        {
+          "q": "Can Strapi replace my existing WordPress site?",
+          "a": "It depends on what you need. If you want a content heavy site where editors control everything, WordPress may still be the right fit. If you want structured content served to multiple frontends, or content that powers an application, Strapi is usually the stronger choice."
+        },
+        {
+          "q": "Which frontend do you use with Strapi?",
+          "a": "I can connect Strapi to Laravel, WordPress or a modern JavaScript frontend. I pick based on what fits your project, since the headless setup means the frontend can be anything that consumes an API."
+        },
+        {
+          "q": "Is Strapi content easy for my team to manage?",
+          "a": "Yes. I configure the Strapi admin panel around your content and your team's workflow, so editors manage content in a clear dashboard without needing a developer."
+        }
+      ],
+      "cta": "Want content that works across your site and apps? Let us talk."
+    },
+    {
+      "slug": "web-security-audit-hardening",
+      "title": "Web Security Audit & Hardening",
+      "metaDescription": "Web application security audits and hardening for Laravel, WordPress and Strapi. OWASP Top 10 checks, vulnerability reviews and fixes backed by security certifications.",
+      "keywords": [
+        "web application security audit",
+        "website security hardening",
+        "Laravel security",
+        "WordPress security audit",
+        "OWASP Top 10 testing",
+        "penetration testing"
+      ],
+      "hero": "Web application security reviews that find the real problems and fix them. Audits and hardening backed by web security and penetration testing certifications.",
+      "overview": "Most security issues are not exotic. They are missed login checks, unchecked inputs, exposed admin panels and outdated dependencies. I review your Laravel, WordPress or Strapi application against the OWASP Top 10 and beyond, then fix what I find. This covers both a one-off audit and the hardening work that follows. I look at how your application handles authentication, authorization, input validation, file uploads and third party plugins, because those are where most real-world breaches start.",
+      "whatIBuild": [
+        "Security audits covering the OWASP Top 10 and common misconfigurations",
+        "Review of authentication, authorization and session handling",
+        "Input validation, SQL injection and XSS checks",
+        "Hardening of server, framework and CMS settings",
+        "Securing admin panels and restricting exposed areas",
+        "Reviewing third party plugins, packages and dependencies for known issues",
+        "Clear reports of what was found, how serious it is, and how it was fixed"
+      ],
+      "howIWork": "I start with a review of your application, its configuration and its dependencies. Then I go through the code and running system looking for the weaknesses that matter, prioritizing by risk so you know what to fix first. I fix what I can directly and give you a clear report for anything that needs your decision. When the work is done you get a hardened system plus a checklist you can reuse after future changes.",
+      "whyItMatters": "A security breach is expensive in ways that go beyond the fix. Stolen data, downtime and lost trust are hard to recover from. Most successful attacks exploit basic gaps that a proper review catches early. Given that I hold certifications in web application security, penetration testing and related fields, this is a service backed by training, not just experience.",
+      "faq": [
+        {
+          "q": "What does a security audit cover?",
+          "a": "I review authentication, authorization, input handling, file uploads, server and framework configuration, third party plugins and dependencies, and exposure of sensitive areas like admin panels. Findings are prioritized by risk."
+        },
+        {
+          "q": "Do you only audit, or do you fix too?",
+          "a": "Both. I fix what I can during the engagement and provide a clear report for anything that needs your input, like decisions about how authentication should work."
+        },
+        {
+          "q": "Which platforms do you audit?",
+          "a": "Laravel and PHP applications, WordPress sites, and Strapi setups. That covers the stacks I work with, so I review the code and the CMS ecosystem, not just the surface."
+        },
+        {
+          "q": "Is this a penetration test?",
+          "a": "It is a security review and hardening service informed by penetration testing experience. If you need a formal pentest engagement with a specific scope and report format, we can discuss how deep that should go."
+        }
+      ],
+      "cta": "Not sure how secure your application really is? Let us find out."
+    },
+    {
+      "slug": "api-development-integration",
+      "title": "API Development & Integration",
+      "metaDescription": "Custom REST and GraphQL API development plus third party integrations. Payment gateways, webhooks, CRMs and tools connected to your Laravel, WordPress or Strapi system.",
+      "keywords": [
+        "REST API development",
+        "GraphQL API development",
+        "third party API integration",
+        "payment gateway integration",
+        "webhook development",
+        "API developer"
+      ],
+      "hero": "APIs that work cleanly and integrations that actually connect. REST and GraphQL APIs built properly, and third party tools wired into your system.",
+      "overview": "Modern applications run on connections. Your site talks to a payment provider, your CRM talks to your admin panel, your mobile app talks to your backend. I build the APIs that make these connections clean and reliable, and I integrate the third party services your business depends on. This covers custom REST and GraphQL APIs, payment gateways, webhooks, and connecting CRMs and other tools to Laravel, WordPress or Strapi. The focus is on APIs that are well documented, consistent and safe to build on.",
+      "whatIBuild": [
+        "Custom REST APIs for web, mobile and external tools",
+        "GraphQL APIs when a flexible query interface fits better",
+        "Payment gateway and billing integrations",
+        "Webhooks to push events to your systems in real time",
+        "Connecting CRMs, email, analytics and other third party tools",
+        "API authentication, rate limiting and versioning done properly",
+        "Documentation so your team and other developers can actually use it"
+      ],
+      "howIWork": "I start by defining what the API needs to do and who will use it. That shapes the endpoints, the data shape and how authentication works. Then I build it with versioning and error handling from the start, so later changes do not break existing consumers. For integrations, I map how data should flow between the tools before writing any code, so the connection is reliable rather than fragile.",
+      "whyItMatters": "A messy API is expensive. Every consumer built against it has to work around its problems, and every integration you add later becomes harder. A well designed API and clean integrations mean new features, new tools and new partners connect without rework, which saves real time and money as your product grows.",
+      "faq": [
+        {
+          "q": "Do you build APIs for existing systems or only new ones?",
+          "a": "Both. I can build an API layer on top of an existing Laravel, WordPress or Strapi system, or design one from scratch for a new product."
+        },
+        {
+          "q": "Which payment providers can you integrate?",
+          "a": "I have experience with the common payment gateways used in web applications. Tell me the provider and region and I will confirm the details before quoting."
+        },
+        {
+          "q": "What does API documentation include?",
+          "a": "Endpoints, request and response examples, authentication details and error handling. Clear enough that another developer can integrate without asking you questions."
+        },
+        {
+          "q": "Can you integrate multiple tools together?",
+          "a": "Yes. Connecting several systems, like your site, CRM and analytics, is often where the real value is. I map the data flow so everything stays consistent."
+        }
+      ],
+      "cta": "Have systems that need to talk to each other? Let us connect them."
+    },
+    {
+      "slug": "migration-modernization",
+      "title": "Migration & Modernization",
+      "metaDescription": "Safe migration of legacy PHP, older Laravel versions and WordPress sites into modern, maintainable systems including Strapi. Upgrades without breaking what works.",
+      "keywords": [
+        "legacy PHP migration",
+        "Laravel upgrade",
+        "WordPress to Strapi migration",
+        "CMS migration services",
+        "application modernization"
+      ],
+      "hero": "Old systems upgraded without breaking what works. Legacy PHP to Laravel, WordPress to Strapi, and everything in between, moved safely.",
+      "overview": "Every business eventually outgrows its software. The code that worked five years ago is now slow, hard to change and risky to update. I help move systems to something modern without losing the data or breaking what users rely on. This includes migrating legacy PHP codebases to Laravel, upgrading older Laravel versions, and moving WordPress content into Strapi for a headless setup. The key is a staged plan. Nothing changes until the replacement is ready, and everything is verified along the way.",
+      "whatIBuild": [
+        "Legacy PHP codebases rebuilt on modern Laravel",
+        "Laravel version upgrades done safely, one step at a time",
+        "WordPress content and media migrated to Strapi",
+        "WordPress sites moved to cleaner custom code",
+        "Data migration with integrity checks, so nothing is lost",
+        "Feature parity checks so the new system does everything the old one did",
+        "A cutover plan that minimizes downtime and risk"
+      ],
+      "howIWork": "I start by mapping what the current system does, what data it holds and what would break if anything changed. Then I plan the migration in stages, building the new system alongside the old one rather than replacing it blind. I verify data and behavior at each stage, and only cut over when the new system is proven. This is slower than a rewrite, and it is also far safer.",
+      "whyItMatters": "Most failed migrations happen because someone tried to move everything at once or skipped verification. A staged migration keeps your business running while the new system is built and tested. The result is a modern, maintainable codebase that you can actually extend, without the risk and downtime of a big bang rewrite.",
+      "faq": [
+        {
+          "q": "Is migration safer than a full rewrite?",
+          "a": "Usually yes. A staged migration builds the new system alongside the old one and verifies each step, so your business keeps running and nothing is lost. A rewrite from scratch carries more risk and often takes longer."
+        },
+        {
+          "q": "Can you migrate my WordPress site to Strapi?",
+          "a": "Yes. That includes moving content, media and structure into Strapi, and connecting a frontend if you need one. WordPress and Strapi store content differently, so part of the work is mapping the structure correctly."
+        },
+        {
+          "q": "Will my users see downtime during the move?",
+          "a": "The goal is minimal or no downtime. I build and test the new system before cutover and plan the switch so disruption to your users is as small as possible."
+        },
+        {
+          "q": "How long does a migration take?",
+          "a": "It depends on the size of the system and how different the target is. I give a clear timeline after assessing what needs to move and what the risks are."
+        }
+      ],
+      "cta": "Stuck on software that is getting harder to maintain? Let us plan the move."
+    },
+    {
+      "slug": "backend-performance-optimization",
+      "title": "Backend Performance Optimization",
+      "metaDescription": "Backend performance optimization for Laravel, WordPress and Strapi. Slow queries, caching and database tuning with measured before and after results.",
+      "keywords": [
+        "backend performance optimization",
+        "Laravel performance tuning",
+        "slow query optimization",
+        "database optimization",
+        "Redis caching"
+      ],
+      "hero": "Backends that stay fast under real traffic. Slow queries found, caching added and measured results instead of guesses.",
+      "overview": "Performance problems are usually caused by a handful of specific things. Slow database queries, missing caching, unnecessary work on every request. I find those things instead of guessing, fix them, and measure the difference. This covers Laravel, WordPress and Strapi applications. The work includes query analysis and database tuning with MySQL, adding Redis caching where it actually helps, profiling application code and removing the repeated work that slows everything down.",
+      "whatIBuild": [
+        "Database query analysis and index tuning with MySQL",
+        "Redis caching added where it actually helps, not everywhere",
+        "Application profiling to find the real bottlenecks",
+        "Removing repeated work and N+1 query patterns",
+        "Response time measurement before and after, so you see the gain",
+        "Loading and traffic handling improvements for real usage patterns"
+      ],
+      "howIWork": "I do not optimize by guesswork. I start by measuring, with query logs, profiling and response time checks, to find what is actually slow. Then I fix the highest impact issues first and measure again. You get a before and after picture, so the improvement is visible rather than assumed. I also leave your codebase clean enough that future work does not undo the gains.",
+      "whyItMatters": "Slow sites cost visitors and revenue, and the cost usually grows as data and traffic do. The same fixes that bring a slow page from seconds to milliseconds also make the system cheaper to run, because they reduce the server resources every request burns. Optimizing the real bottlenecks is cheaper than scaling up hardware to cover for them.",
+      "faq": [
+        {
+          "q": "Can you speed up an existing application without breaking it?",
+          "a": "Yes. I work from measurements, fix the highest impact bottlenecks and verify behavior stays correct at each step. Optimization that changes how the app behaves is not optimization, so I avoid it."
+        },
+        {
+          "q": "How do you know what is actually slow?",
+          "a": "I measure. Query logs, application profiling and response time checks show where the time is really going, instead of relying on assumptions about what is slow."
+        },
+        {
+          "q": "Do you work on WordPress performance too?",
+          "a": "Yes. WordPress slowdowns usually come from plugins, queries or configuration, and I review those areas the same way I would a Laravel or Strapi application."
+        },
+        {
+          "q": "Will I see measured results?",
+          "a": "Yes. I compare response times and query performance before and after, so you see the actual improvement rather than a general promise."
+        }
+      ],
+      "cta": "Site getting slower as it grows? Let us find out why."
+    },
+    {
+      "slug": "maintenance-support",
+      "title": "Ongoing Maintenance & Support",
+      "metaDescription": "Ongoing maintenance and support retainers for Laravel, WordPress and Strapi. Security updates, bug fixes and monitoring that keep your system healthy after launch.",
+      "keywords": [
+        "website maintenance",
+        "Laravel maintenance services",
+        "WordPress maintenance",
+        "Strapi support",
+        "retainer developer",
+        "bug fix services"
+      ],
+      "hero": "Ongoing care for the systems you rely on. Security updates, bug fixes and monitoring handled, so you are not left holding it alone after launch.",
+      "overview": "Launch day is not the end of the work. Software needs updates, monitoring, and fixing when things break. I offer maintenance and support retainers for Laravel, WordPress and Strapi systems, covering security updates for frameworks and dependencies, bug fixes, small changes, and keeping an eye on uptime and health. You get a developer who already knows your system, instead of explaining it to someone new every time something goes wrong.",
+      "whatIBuild": [
+        "Regular security updates for frameworks, dependencies and plugins",
+        "Bug fixing and small changes as they come up",
+        "Uptime and health monitoring with clear alerts",
+        "Backup checks so recovery is possible when you need it",
+        "Documentation of your system so issues are resolved faster",
+        "A predictable monthly cost instead of emergency pricing"
+      ],
+      "howIWork": "I start by getting to know your system, its setup and its known weak points, so I am not reading about it for the first time when something breaks. Then we agree on a level of support, from keeping dependencies updated to a fuller package with monitoring and small changes. Issues get handled promptly, and anything urgent gets prioritized the way it should.",
+      "whyItMatters": "Unmaintained software is a risk. Outdated dependencies are how most sites get compromised, and an unmonitored system can be down for hours before anyone notices. A maintenance retainer turns that around. You get someone who already knows your code, regular updates that close the gaps, and support you can rely on at a predictable cost.",
+      "faq": [
+        {
+          "q": "What does a maintenance retainer include?",
+          "a": "Security updates, bug fixes, monitoring and small changes, depending on the package. We agree on scope up front so you know what is covered and what is a separate request."
+        },
+        {
+          "q": "How fast will you respond to urgent issues?",
+          "a": "Urgent issues get priority treatment. Exact response times depend on the package, and we agree on those before you commit."
+        },
+        {
+          "q": "Do you maintain systems you did not build?",
+          "a": "Yes. I can take over support for existing Laravel, WordPress or Strapi systems, starting with a review so I understand how it is built and where the risks are."
+        },
+        {
+          "q": "Can I get maintenance only when I need it?",
+          "a": "Yes. Alongside regular retainers I can handle one-off fixes, updates or audits on request, with a clear quote before any work starts."
+        }
+      ],
+      "cta": "Do not carry your system alone. Let us talk about support."
     }
   ]
 }

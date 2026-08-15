@@ -4,15 +4,41 @@ import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import Typewriter from "@/components/Typewriter";
-import { workHistory } from "@/lib/content";
+import { workHistory, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Resume",
+  description:
+    "Work history, projects, skills and education of Shaikh Aryan Bilal, a backend-focused web software engineer with 6+ years of experience in PHP, Laravel, WordPress, Strapi and web security.",
+  keywords: [
+    "Shaikh Aryan Bilal resume",
+    "Laravel developer resume",
+    "PHP backend developer",
+    "web software engineer Karachi",
+    "WordPress developer CV",
+    "backend engineer portfolio",
+  ],
+  alternates: {
+    canonical: "/resume",
+  },
 };
 
 export default function WorkHistoryPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Resume", item: `${siteUrl}/resume` },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <SiteNav />
       <main>
         <section className="section page-top">

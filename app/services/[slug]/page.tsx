@@ -56,6 +56,22 @@ export default async function ServiceDetailPage({
     ],
   };
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `${siteUrl}/services/${service.slug}#service`,
+    name: service.title,
+    description: service.metaDescription,
+    serviceType: service.title,
+    url: `${siteUrl}/services/${service.slug}`,
+    areaServed: "Worldwide",
+    provider: {
+      "@type": "Person",
+      name: "Shaikh Aryan Bilal",
+      url: siteUrl,
+    },
+  };
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -70,7 +86,7 @@ export default async function ServiceDetailPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, faqSchema]) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, serviceSchema, faqSchema]) }}
       />
       <SiteNav />
       <main>

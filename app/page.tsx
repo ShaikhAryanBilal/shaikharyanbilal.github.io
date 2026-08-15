@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import Typewriter from "@/components/Typewriter";
-import { home, site } from "@/lib/content";
+import { home, site, siteUrl, contact } from "@/lib/content";
 
 const TECH_BRANDS: Record<string, string> = {
   PHP: "#777BB4",
@@ -189,8 +189,55 @@ const SOCIAL_ICONS: Record<string, ReactNode> = {
 export default function Page() {
   const socials = site.socials.filter((s) => SOCIAL_ICONS[s.label]);
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${siteUrl}/#person`,
+    name: site.name,
+    url: siteUrl,
+    image: `${siteUrl}/images/portrait-2026.jpg`,
+    jobTitle: "Web Software Engineer",
+    description: home.hero.lede,
+    email: `mailto:${contact.email}`,
+    telephone: contact.phone,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Karachi",
+      addressCountry: "PK",
+    },
+    sameAs: site.socials.map((s) => s.url),
+    knowsAbout: [
+      "PHP",
+      "Laravel",
+      "WordPress",
+      "Strapi",
+      "REST APIs",
+      "MySQL",
+      "Redis",
+      "Web Security",
+      "OWASP",
+      "Next.js",
+      "TypeScript",
+    ],
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${siteUrl}/#website`,
+    url: siteUrl,
+    name: site.name,
+    description: home.hero.lede,
+    inLanguage: "en",
+    publisher: { "@id": `${siteUrl}/#person` },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([personSchema, websiteSchema]) }}
+      />
       <SiteNav />
       <main>
         <section className="section page-top intro">
