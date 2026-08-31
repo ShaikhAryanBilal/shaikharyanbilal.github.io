@@ -1,8 +1,11 @@
 {
   "kicker": "Services",
-  "title": "Services",
+  "title": "Scalable Backend Engineering & Custom API Services",
+  "seoTitle": "Backend Engineer & Custom Laravel API Services",
+  "seoDescription": "Senior Backend Software Engineer offering custom REST API development, Laravel application architecture, WordPress plugin design, and secure PHP systems built for scale.",
   "hero": "Backend development built to last. Laravel, WordPress and Strapi work from an engineer who plans past launch day.",
   "intro": "I help businesses and teams build backend systems that keep working once real traffic and real users show up. I have spent 6+ years working with PHP, Laravel, WordPress and Strapi, and I hold certifications in web application security. I care about the parts of a project that matter most after launch, like speed, structure, security and long term upkeep. Below are the main services I offer. Each one uses the same approach. Understand the problem first, then build something that can grow with the business.",
+  "overview": "Specialized backend engineering for high-concurrency APIs, legacy code migration, multi-tenant database structuring, and headless CMS implementations. I work with software agencies, early-stage SaaS founders, and enterprise technical leads who need systems that perform under real traffic.",
   "offers": [
     {
       "slug": "custom-software-solutions",
@@ -50,6 +53,92 @@
       "text": "Security updates, bug fixes and upkeep retainers that keep your Laravel, WordPress or Strapi system healthy after launch."
     }
   ],
+  "pageSections": [
+    {
+      "heading": "Custom Development Solutions",
+      "intro": "Backend systems engineered around your business, from enterprise API contracts to flexible content platforms.",
+      "subsections": [
+        {
+          "heading": "Enterprise REST API Development & Microservices",
+          "text": "Custom REST and GraphQL APIs designed with clean contracts, versioning, authentication and rate limiting, so web, mobile and third-party tools can connect reliably.",
+          "slug": "api-development-integration"
+        },
+        {
+          "heading": "Custom Laravel Framework Application Development",
+          "text": "Laravel applications, admin panels and cross-platform APIs built from the ground up with MySQL schema design and Redis caching, ready to grow under real load.",
+          "slug": "laravel-php-development"
+        },
+        {
+          "heading": "Headless CMS Solutions with Strapi & Next.js Integration",
+          "text": "Strapi content backends that deliver structured content through fast, documented APIs to a Next.js or any modern frontend, giving your team a clean editing dashboard.",
+          "slug": "strapi-web-app-development"
+        },
+        {
+          "heading": "Custom WordPress Plugin Engineering & System Optimization",
+          "text": "Custom WordPress plugins, lean themes and optimized builds for teams that have outgrown a page builder, with speed and long-term upkeep prioritized from day one.",
+          "slug": "wordpress-development"
+        }
+      ]
+    },
+    {
+      "heading": "Specialized Performance & Security Engineering",
+      "intro": "The work that matters most after launch: hardening the system and keeping it fast as data and traffic grow.",
+      "subsections": [
+        {
+          "heading": "OWASP-Compliant Security Architecture & Code Audits",
+          "text": "Security reviews and hardening aligned to the OWASP Top 10, covering authentication, input validation, SQL injection, XSS and dependency risk, backed by web security certifications.",
+          "slug": "web-security-audit-hardening"
+        },
+        {
+          "heading": "MySQL Database Schema Optimization & Query Refactoring",
+          "text": "Slow queries, N+1 patterns and missing indexes found by measurement, then fixed with schema and query refactoring that deliver real speed gains.",
+          "slug": "backend-performance-optimization"
+        },
+        {
+          "heading": "High-Throughput Redis Caching & Queue Management",
+          "text": "Redis caching and background queue implementation to handle high traffic, email queues and API throttling without burning unnecessary server resources.",
+          "slug": "backend-performance-optimization"
+        },
+        {
+          "heading": "Generative AI Workflow & Tooling Integration",
+          "text": "Bringing AI-assisted workflows and generative AI API integrations into existing backend architectures where they genuinely add value, not just where they are trendy.",
+          "slug": "api-development-integration"
+        }
+      ]
+    },
+    {
+      "heading": "Backend Engineering Methodology & System Architecture",
+      "intro": "The process behind every build: clean, testable architecture and safe modernization of systems that have outgrown their original code.",
+      "subsections": [
+        {
+          "heading": "Clean Code Standards & Test-Driven Development",
+          "text": "Code that is easy for someone else, or future me, to pick up later. Clean structure, readable logic and a testing mindset that keeps systems stable as they change.",
+          "slug": "laravel-php-development"
+        },
+        {
+          "heading": "Legacy Code Modernization & PHP 8+ Upgrades",
+          "text": "Safe staged migrations from legacy PHP and older Laravel versions into modern, maintainable systems, including WordPress to Strapi, without breaking what works.",
+          "slug": "migration-modernization"
+        }
+      ]
+    },
+    {
+      "heading": "Global Collaboration & Hiring Models",
+      "intro": "Flexible ways to work together, from one-off contracts to dedicated remote engineering for teams across the world.",
+      "subsections": [
+        {
+          "heading": "Freelance & Contract Backend Development",
+          "text": "Dedicated contract engineering for SaaS founders, agencies and enterprises, from custom admin panels and multi-tenant platforms to headless content setups.",
+          "slug": "custom-software-solutions"
+        },
+        {
+          "heading": "Remote Engineering for US, UK, and UAE Teams",
+          "text": "A backend engineer based in Karachi, Pakistan, delivering reliable remote work to US, UK and UAE teams across time zones, with clear communication and dependable delivery.",
+          "slug": "custom-software-solutions"
+        }
+      ]
+    }
+  ],
   "background": "I have worked on 29 projects and hold 22 certifications across backend development and related fields. You can see examples of past work on my Resume page and view my full list of certifications on the Certifications page.",
   "whyWorkWithMe": "I have spent 6+ years focused mainly on backend engineering. I am not someone who touches the backend now and then. I think about data, structure and growth first. I write code that is easy for someone else, or future me, to pick up later. I work across Laravel, WordPress and Strapi depending on what each project actually needs, instead of forcing every project into the same tool.",
   "faq": [
@@ -75,16 +164,22 @@
     {
       "slug": "custom-software-solutions",
       "title": "Custom Software Solutions",
-      "metaDescription": "Custom software development tailored to your exact business needs. Systems, tools and platforms designed around your workflows instead of generic templates.",
+      "metaDescription": "Custom software and tailored web application development for business tools, portals, multi-tenant platforms and systems engineered around your exact workflows.",
       "keywords": [
         "custom software development",
         "tailored software solutions",
         "custom web application development",
+        "multi-tenant SaaS backend architecture",
         "business software development",
         "custom systems development"
       ],
       "hero": "Software built around your actual needs, not a template. Systems designed for the way your business works, not the other way around.",
       "overview": "Not every business problem fits neatly into an off-the-shelf product. Custom software is for the parts of your business that need to work the way you do. I take the time to understand how your team actually operates, then build a system that fits that workflow. This could be a tool that replaces a messy spreadsheet process, a portal that connects customers to your services, or a platform that automates a repetitive part of your operation. Whatever the problem, the goal is the same. Software that does the job well today and is easy to change as your business grows.",
+      "headings": {
+        "whatIBuild": "Custom Software & Business Systems",
+        "howIWork": "How I Design Custom Solutions",
+        "whyItMatters": "Why Custom Software Matters"
+      },
       "whatIBuild": [
         "Business tools and portals built around your exact workflow",
         "Web applications that replace manual or spreadsheet based processes",
@@ -117,17 +212,23 @@
     },
     {
       "slug": "laravel-php-development",
-      "title": "Laravel and PHP Development",
-      "metaDescription": "Custom Laravel and PHP backend development. Scalable APIs, admin panels and application structure built to handle real traffic without breaking.",
+      "title": "Custom Laravel & PHP Development",
+      "metaDescription": "Custom Laravel API development and PHP backend engineering. Scalable REST APIs, admin panels and application architecture built to handle real traffic without breaking.",
       "keywords": [
         "Laravel developer",
-        "Laravel development services",
+        "Laravel backend developer",
+        "custom Laravel API development",
         "PHP backend developer",
-        "custom API development",
+        "custom REST API development",
         "Laravel admin panel development"
       ],
       "hero": "I build backend systems that keep working once real users show up. Clean structure, fast queries and code that does not fall apart six months later.",
       "overview": "PHP and Laravel have been the core of my work for more than 6 years. I use them to build custom APIs, admin panels and full application backends. These are the kinds of systems that need to stay fast and stable as traffic and complexity grow. I do not like putting together something that works today and breaks under load next month. I think through the structure first. How data moves, where slow points will show up, and what happens once this system is actually being used by real people.",
+      "headings": {
+        "whatIBuild": "Custom Laravel Applications & REST APIs",
+        "howIWork": "How I Engineer Laravel Backends",
+        "whyItMatters": "Why a Solid Laravel Backend Matters"
+      },
       "whatIBuild": [
         "Custom Laravel applications built from the ground up",
         "REST APIs for web, mobile and other third party tools",
@@ -161,16 +262,22 @@
     },
     {
       "slug": "wordpress-development",
-      "title": "WordPress Development",
-      "metaDescription": "Custom WordPress development. Plugins, themes and clean, maintainable sites for teams that need more than a page builder can offer.",
+      "title": "Custom WordPress Plugin Development",
+      "metaDescription": "Custom WordPress plugin development, themes and performance optimization. Clean, maintainable sites and plugins for teams that need more than a page builder can offer.",
       "keywords": [
         "WordPress developer",
         "custom WordPress plugin development",
         "WordPress theme development",
-        "WordPress performance optimization"
+        "WordPress performance optimization",
+        "WordPress system optimization"
       ],
       "hero": "Custom plugins, clean builds and WordPress sites that do not slow down or break as your content and traffic grow.",
       "overview": "I build WordPress sites and plugins the same way I build everything else. Speed and long term upkeep come first, not as an afterthought. This could mean a custom plugin built for one specific business need, a theme built from scratch, or fixing up a site that has grown past what a page builder can handle. My focus is always on making sure the site stays reliable as it grows.",
+      "headings": {
+        "whatIBuild": "Custom WordPress Plugins & Themes",
+        "howIWork": "How I Engineer WordPress Builds",
+        "whyItMatters": "Why WordPress Optimization Matters"
+      },
       "whatIBuild": [
         "Custom WordPress plugins built for specific business needs",
         "Custom themes built for speed, not just looks",
@@ -203,10 +310,11 @@
     },
     {
       "slug": "strapi-web-app-development",
-      "title": "Strapi Based Web App Development",
-      "metaDescription": "Headless CMS and content powered web applications built with Strapi. Fast APIs, structured content and a backend your team can actually manage.",
+      "title": "Strapi Headless CMS Development",
+      "metaDescription": "Headless CMS development with Strapi and Next.js integration. Structured content, fast content APIs and a backend your team can actually manage.",
       "keywords": [
         "Strapi developer",
+        "Strapi headless CMS developer",
         "headless CMS development",
         "Strapi web application development",
         "content API development",
@@ -214,6 +322,11 @@
       ],
       "hero": "Content powered applications built on Strapi. A clean backend your team controls, delivered through a fast API to any frontend.",
       "overview": "Strapi is a headless CMS, which means content lives in a structured backend and gets delivered through an API instead of being tied to a website template. I build Strapi backends that give your team a simple dashboard to manage content, while the frontend stays fast, flexible and fully under your control. This works well for sites and applications that need the same content in more than one place, like a website and a mobile app, or that need to scale without being locked into one template system.",
+      "headings": {
+        "whatIBuild": "Strapi Content Architecture & APIs",
+        "howIWork": "How I Build Headless CMS Backends",
+        "whyItMatters": "Why a Headless CMS Matters"
+      },
       "whatIBuild": [
         "Strapi content models and backend structure designed for your content",
         "REST and GraphQL APIs that deliver content to web and mobile",
@@ -248,9 +361,10 @@
     {
       "slug": "web-security-audit-hardening",
       "title": "Web Security Audit & Hardening",
-      "metaDescription": "Web application security audits and hardening for Laravel, WordPress and Strapi. OWASP Top 10 checks, vulnerability reviews and fixes backed by security certifications.",
+      "metaDescription": "OWASP compliant web development audits and hardening for Laravel, WordPress and Strapi. OWASP Top 10 checks, SQLi, XSS and CSRF reviews, and fixes backed by security certifications.",
       "keywords": [
         "web application security audit",
+        "OWASP compliant web development",
         "website security hardening",
         "Laravel security",
         "WordPress security audit",
@@ -259,6 +373,11 @@
       ],
       "hero": "Web application security reviews that find the real problems and fix them. Audits and hardening backed by web security and penetration testing certifications.",
       "overview": "Most security issues are not exotic. They are missed login checks, unchecked inputs, exposed admin panels and outdated dependencies. I review your Laravel, WordPress or Strapi application against the OWASP Top 10 and beyond, then fix what I find. This covers both a one-off audit and the hardening work that follows. I look at how your application handles authentication, authorization, input validation, file uploads and third party plugins, because those are where most real-world breaches start.",
+      "headings": {
+        "whatIBuild": "OWASP-Compliant Security Audits & Hardening",
+        "howIWork": "How I Approach a Security Audit",
+        "whyItMatters": "Why OWASP-Compliant Development Matters"
+      },
       "whatIBuild": [
         "Security audits covering the OWASP Top 10 and common misconfigurations",
         "Review of authentication, authorization and session handling",
@@ -292,10 +411,11 @@
     },
     {
       "slug": "api-development-integration",
-      "title": "API Development & Integration",
-      "metaDescription": "Custom REST and GraphQL API development plus third party integrations. Payment gateways, webhooks, CRMs and tools connected to your Laravel, WordPress or Strapi system.",
+      "title": "Custom REST & GraphQL API Development",
+      "metaDescription": "Custom REST API development, GraphQL APIs and third party integrations. Payment gateways, webhooks, CRMs and tools connected to your Laravel, WordPress or Strapi system.",
       "keywords": [
         "REST API development",
+        "custom REST API development",
         "GraphQL API development",
         "third party API integration",
         "payment gateway integration",
@@ -304,6 +424,11 @@
       ],
       "hero": "APIs that work cleanly and integrations that actually connect. REST and GraphQL APIs built properly, and third party tools wired into your system.",
       "overview": "Modern applications run on connections. Your site talks to a payment provider, your CRM talks to your admin panel, your mobile app talks to your backend. I build the APIs that make these connections clean and reliable, and I integrate the third party services your business depends on. This covers custom REST and GraphQL APIs, payment gateways, webhooks, and connecting CRMs and other tools to Laravel, WordPress or Strapi. The focus is on APIs that are well documented, consistent and safe to build on.",
+      "headings": {
+        "whatIBuild": "Custom REST & GraphQL API Development",
+        "howIWork": "How I Build & Integrate APIs",
+        "whyItMatters": "Why Well-Designed APIs Matter"
+      },
       "whatIBuild": [
         "Custom REST APIs for web, mobile and external tools",
         "GraphQL APIs when a flexible query interface fits better",
@@ -338,9 +463,11 @@
     {
       "slug": "migration-modernization",
       "title": "Migration & Modernization",
-      "metaDescription": "Safe migration of legacy PHP, older Laravel versions and WordPress sites into modern, maintainable systems including Strapi. Upgrades without breaking what works.",
+      "metaDescription": "Legacy codebase modernization and PHP 8+ upgrades. Safe migration of legacy PHP, older Laravel versions and WordPress sites into modern, maintainable systems including Strapi.",
       "keywords": [
         "legacy PHP migration",
+        "legacy code modernization",
+        "PHP 8 upgrade",
         "Laravel upgrade",
         "WordPress to Strapi migration",
         "CMS migration services",
@@ -348,6 +475,11 @@
       ],
       "hero": "Old systems upgraded without breaking what works. Legacy PHP to Laravel, WordPress to Strapi, and everything in between, moved safely.",
       "overview": "Every business eventually outgrows its software. The code that worked five years ago is now slow, hard to change and risky to update. I help move systems to something modern without losing the data or breaking what users rely on. This includes migrating legacy PHP codebases to Laravel, upgrading older Laravel versions, and moving WordPress content into Strapi for a headless setup. The key is a staged plan. Nothing changes until the replacement is ready, and everything is verified along the way.",
+      "headings": {
+        "whatIBuild": "Legacy Code Modernization & Migrations",
+        "howIWork": "How I Plan a Safe Migration",
+        "whyItMatters": "Why Staged Modernization Matters"
+      },
       "whatIBuild": [
         "Legacy PHP codebases rebuilt on modern Laravel",
         "Laravel version upgrades done safely, one step at a time",
@@ -382,16 +514,23 @@
     {
       "slug": "backend-performance-optimization",
       "title": "Backend Performance Optimization",
-      "metaDescription": "Backend performance optimization for Laravel, WordPress and Strapi. Slow queries, caching and database tuning with measured before and after results.",
+      "metaDescription": "Backend performance optimization for Laravel, WordPress and Strapi. MySQL query optimization, Redis caching and database tuning with measured before and after results.",
       "keywords": [
         "backend performance optimization",
-        "Laravel performance tuning",
-        "slow query optimization",
+        "MySQL query performance optimization",
+        "MySQL query optimization",
         "database optimization",
-        "Redis caching"
+        "Redis caching",
+        "Redis cache and queue implementation",
+        "Laravel performance tuning"
       ],
       "hero": "Backends that stay fast under real traffic. Slow queries found, caching added and measured results instead of guesses.",
       "overview": "Performance problems are usually caused by a handful of specific things. Slow database queries, missing caching, unnecessary work on every request. I find those things instead of guessing, fix them, and measure the difference. This covers Laravel, WordPress and Strapi applications. The work includes query analysis and database tuning with MySQL, adding Redis caching where it actually helps, profiling application code and removing the repeated work that slows everything down.",
+      "headings": {
+        "whatIBuild": "MySQL Query & Redis Performance Engineering",
+        "howIWork": "How I Optimize Slow Backends",
+        "whyItMatters": "Why Backend Performance Matters"
+      },
       "whatIBuild": [
         "Database query analysis and index tuning with MySQL",
         "Redis caching added where it actually helps, not everywhere",
@@ -436,6 +575,11 @@
       ],
       "hero": "Ongoing care for the systems you rely on. Security updates, bug fixes and monitoring handled, so you are not left holding it alone after launch.",
       "overview": "Launch day is not the end of the work. Software needs updates, monitoring, and fixing when things break. I offer maintenance and support retainers for Laravel, WordPress and Strapi systems, covering security updates for frameworks and dependencies, bug fixes, small changes, and keeping an eye on uptime and health. You get a developer who already knows your system, instead of explaining it to someone new every time something goes wrong.",
+      "headings": {
+        "whatIBuild": "Maintenance & Support Retainers",
+        "howIWork": "How I Handle Ongoing Support",
+        "whyItMatters": "Why Maintenance Matters"
+      },
       "whatIBuild": [
         "Regular security updates for frameworks, dependencies and plugins",
         "Bug fixing and small changes as they come up",

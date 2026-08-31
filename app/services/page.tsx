@@ -8,19 +8,37 @@ import Typewriter from "@/components/Typewriter";
 import { services, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Services",
-  description:
-    "Backend development services from Shaikh Aryan Bilal with 6+ years of experience. Laravel, PHP, WordPress and Strapi development, REST and GraphQL APIs, web security audits, migrations, performance optimization and ongoing support.",
+  title: {
+    absolute: `${services.seoTitle} | Shaikh Aryan Bilal`,
+  },
+  description: services.seoDescription,
   keywords: [
-    "Laravel development services",
-    "PHP backend development",
-    "WordPress development services",
-    "Strapi development",
-    "API development services",
-    "web security audit",
-    "backend performance optimization",
-    "website migration services",
+    "Custom REST API Development",
+    "Laravel Backend Developer",
+    "Custom WordPress Plugin Development",
+    "Strapi Headless CMS Developer",
+    "Scalable Application Architecture",
+    "Secure PHP Backend Engineer",
+    "Legacy PHP Codebase Migration",
+    "MySQL Query Performance Optimization",
+    "Multi-Tenant SaaS Backend Architecture",
+    "OWASP Compliant Web Development",
+    "Generative AI API Integration",
+    "Redis Cache & Queue Implementation",
+    "Laravel Developer in Karachi",
+    "Freelance Backend Engineer Pakistan",
+    "Remote PHP Developer Karachi",
+    "Hire Dedicated Laravel Developer",
   ],
+  openGraph: {
+    title: `${services.seoTitle} | Shaikh Aryan Bilal`,
+    description: services.seoDescription,
+    url: `${siteUrl}/services`,
+  },
+  twitter: {
+    title: `${services.seoTitle} | Shaikh Aryan Bilal`,
+    description: services.seoDescription,
+  },
   alternates: {
     canonical: "/services",
   },
@@ -30,7 +48,7 @@ export default function ServicesPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: "Backend Web Development",
+    serviceType: "Backend Engineering & Custom API Development",
     provider: {
       "@type": "Person",
       name: "Shaikh Aryan Bilal",
@@ -86,23 +104,31 @@ export default function ServicesPage() {
             </Reveal>
 
             <Reveal delay={240}>
-              <h2 className="resume-section-title">
-                What I offer<span className="dot">.</span>
-              </h2>
+              <p className="services-overview">{services.overview}</p>
             </Reveal>
-            <div className="services-grid">
-              {services.offers.map((o, i) => (
-                <Reveal key={o.slug} delay={(i % 3) * 80}>
-                  <Link className="service-card" href={`/services/${o.slug}`}>
-                    <h3>{o.title}</h3>
-                    <p>{o.text}</p>
-                    <span className="service-card-link">
-                      Learn more <span aria-hidden="true">→</span>
-                    </span>
-                  </Link>
-                </Reveal>
-              ))}
-            </div>
+
+            {services.pageSections.map((section) => (
+              <Reveal key={section.heading}>
+                <h2 className="resume-section-title">
+                  {section.heading}
+                  <span className="dot">.</span>
+                </h2>
+                {section.intro && <p className="services-intro">{section.intro}</p>}
+                <div className="services-grid">
+                  {section.subsections.map((sub, i) => (
+                    <Reveal key={sub.heading} delay={(i % 3) * 80}>
+                      <Link className="service-card" href={`/services/${sub.slug}`}>
+                        <h3>{sub.heading}</h3>
+                        <p>{sub.text}</p>
+                        <span className="service-card-link">
+                          Learn more <span aria-hidden="true">→</span>
+                        </span>
+                      </Link>
+                    </Reveal>
+                  ))}
+                </div>
+              </Reveal>
+            ))}
 
             <Reveal>
               <h2 className="resume-section-title">

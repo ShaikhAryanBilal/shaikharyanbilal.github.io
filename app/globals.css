@@ -1048,6 +1048,13 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   color: var(--muted);
   margin-bottom: 1rem;
 }
+.services-overview {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--text);
+  max-width: 68ch;
+  margin-bottom: 2.5rem;
+}
 .services-link {
   color: var(--accent);
   text-decoration: underline;

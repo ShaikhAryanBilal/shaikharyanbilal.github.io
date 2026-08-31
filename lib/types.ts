@@ -74,6 +74,7 @@ export interface Certifications {
   kicker: string;
   title: string;
   lede: string;
+  titles: string[];
   images: string[];
 }
 
@@ -124,6 +125,11 @@ export interface ServiceDetail {
   keywords: string[];
   hero: string;
   overview: string;
+  headings: {
+    whatIBuild: string;
+    howIWork: string;
+    whyItMatters: string;
+  };
   whatIBuild: string[];
   howIWork: string;
   whyItMatters: string;
@@ -131,16 +137,32 @@ export interface ServiceDetail {
   cta: string;
 }
 
+export interface ServicePageSubsection {
+  heading: string;
+  text: string;
+  slug: string;
+}
+
+export interface ServicePageSection {
+  heading: string;
+  intro?: string;
+  subsections: ServicePageSubsection[];
+}
+
 export interface Services {
   kicker: string;
   title: string;
+  seoTitle: string;
+  seoDescription: string;
   hero: string;
   intro: string;
+  overview: string;
   offers: {
     slug: string;
     title: string;
     text: string;
   }[];
+  pageSections: ServicePageSection[];
   background: string;
   whyWorkWithMe: string;
   faq: ServiceFaq[];

@@ -7,14 +7,17 @@ import Typewriter from "@/components/Typewriter";
 import { workHistory, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Resume",
+  title: "Backend Engineer Resume — PHP, Laravel & WordPress",
   description:
-    "Work history, projects, skills and education of Shaikh Aryan Bilal, a backend-focused web software engineer with 6+ years of experience in PHP, Laravel, WordPress, Strapi and web security.",
+    "Work history, projects, skills and education of Shaikh Aryan Bilal, a backend-focused web software engineer in Karachi with 6+ years in PHP, Laravel, WordPress, Strapi and web security.",
   keywords: [
     "Shaikh Aryan Bilal resume",
     "Laravel developer resume",
+    "Laravel backend developer Karachi",
     "PHP backend developer",
-    "web software engineer Karachi",
+    "remote PHP developer Karachi",
+    "freelance backend engineer Pakistan",
+    "web software engineer resume",
     "WordPress developer CV",
     "backend engineer portfolio",
   ],

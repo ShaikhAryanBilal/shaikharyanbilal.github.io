@@ -8,7 +8,7 @@ import CertGrid from "@/components/CertGrid";
 import { certifications, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Certifications",
+  title: "Certifications — Web Security & Backend Development",
   description:
     "22 professional certifications earned by Shaikh Aryan Bilal across backend development, web application security, penetration testing, ethical hacking and related fields.",
   keywords: [
@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     "web application security certification",
     "penetration testing certificate",
     "ethical hacking certification",
+    "OWASP certification",
     "backend developer certifications",
     "Laravel certification",
     "web security certifications",
@@ -40,11 +41,29 @@ export default function CertificationsPage() {
     ],
   };
 
+  const credentialSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Professional Certifications of Shaikh Aryan Bilal",
+    itemListElement: certifications.titles.map((t, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "EducationalOccupationalCredential",
+        name: t,
+        credentialCategory: "certification",
+        validFor: "Lifetime",
+      },
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([breadcrumbSchema, credentialSchema]),
+        }}
       />
       <SiteNav />
       <main>

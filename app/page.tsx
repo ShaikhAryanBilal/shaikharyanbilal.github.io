@@ -1,4 +1,5 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import type { CSSProperties, ReactNode } from "react";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
@@ -6,6 +7,30 @@ import ContactSection from "@/components/ContactSection";
 import Reveal from "@/components/Reveal";
 import Typewriter from "@/components/Typewriter";
 import { home, site, siteUrl, contact } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Shaikh Aryan Bilal — Web Software Engineer",
+  },
+  description:
+    "Shaikh Aryan Bilal, a backend software engineer in Karachi with 6+ years of experience building scalable REST APIs and secure PHP, Laravel, WordPress and Strapi systems.",
+  keywords: [
+    "Shaikh Aryan Bilal",
+    "backend developer Karachi",
+    "backend software engineer",
+    "PHP developer",
+    "Laravel developer",
+    "WordPress developer",
+    "Strapi developer",
+    "REST API developer",
+    "headless CMS",
+    "web security",
+    "generative AI integration",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+};
 
 const TECH_BRANDS: Record<string, string> = {
   PHP: "#777BB4",

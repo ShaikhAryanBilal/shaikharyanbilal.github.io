@@ -112,9 +112,7 @@ export default async function ServiceDetailPage({
             </Reveal>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                What I build<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text={service.headings.whatIBuild} dot />
             </Reveal>
             <Reveal>
               <ul className="services-list">
@@ -125,18 +123,14 @@ export default async function ServiceDetailPage({
             </Reveal>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                How I work<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text={service.headings.howIWork} dot />
             </Reveal>
             <Reveal>
               <p className="services-intro">{service.howIWork}</p>
             </Reveal>
 
             <Reveal>
-              <h2 className="resume-section-title">
-                Why it matters<span className="dot">.</span>
-              </h2>
+              <Typewriter as="h2" className="resume-section-title" text={service.headings.whyItMatters} dot />
             </Reveal>
             <Reveal>
               <p className="services-intro">{service.whyItMatters}</p>
