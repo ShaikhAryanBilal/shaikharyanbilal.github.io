@@ -23,7 +23,6 @@ export const metadata: Metadata = {
     "MySQL Query Performance Optimization",
     "Multi-Tenant SaaS Backend Architecture",
     "OWASP Compliant Web Development",
-    "Generative AI API Integration",
     "Redis Cache & Queue Implementation",
     "Laravel Developer in Karachi",
     "Freelance Backend Engineer Pakistan",

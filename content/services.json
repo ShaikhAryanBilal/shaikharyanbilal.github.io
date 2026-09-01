@@ -98,11 +98,6 @@
           "heading": "High-Throughput Redis Caching & Queue Management",
           "text": "Redis caching and background queue implementation to handle high traffic, email queues and API throttling without burning unnecessary server resources.",
           "slug": "backend-performance-optimization"
-        },
-        {
-          "heading": "Generative AI Workflow & Tooling Integration",
-          "text": "Bringing AI-assisted workflows and generative AI API integrations into existing backend architectures where they genuinely add value, not just where they are trendy.",
-          "slug": "api-development-integration"
         }
       ]
     },
