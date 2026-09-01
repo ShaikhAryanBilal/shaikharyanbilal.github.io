@@ -5,7 +5,7 @@ const FOOTER_LINKS = [
   { label: "Services", href: "/services" },
   { label: "Certifications", href: "/certifications" },
   { label: "Resume", href: "/resume" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function SiteFooter() {

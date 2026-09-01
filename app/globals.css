@@ -724,6 +724,203 @@ html[data-theme="light"] .theme-toggle .icon-moon {
 }
 
 /* ============================================================
+   CONTACT PAGE (dedicated /contact)
+   ============================================================ */
+.contact-page {
+  display: grid;
+  gap: clamp(2rem, 5vw, 3rem);
+  margin-top: clamp(2rem, 6vh, 3.5rem);
+}
+.contact-page-lede {
+  max-width: 46rem;
+  font-size: 1.075rem;
+  line-height: 1.75;
+  color: var(--muted);
+}
+.contact-channels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+.contact-ch-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 100%;
+  padding: 1.5rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  color: var(--text);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+a.contact-ch-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+}
+.contact-ch-icon {
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: 12px;
+  color: var(--accent);
+}
+.contact-ch-icon svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.contact-ch-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.contact-ch-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.contact-ch-value {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  word-break: break-word;
+}
+
+.contact-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: clamp(2rem, 4vw, 3rem);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.contact-cta::before {
+  content: "";
+  position: absolute;
+  top: -6rem;
+  right: -6rem;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  background: var(--blob);
+  filter: blur(72px);
+  pointer-events: none;
+}
+.contact-cta-icon {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: 12px;
+  color: var(--accent);
+}
+.contact-cta-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.contact-cta h2 {
+  position: relative;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.contact-cta p {
+  position: relative;
+  max-width: 34rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.contact-social {
+  padding: clamp(1.5rem, 3vw, 2rem);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+.contact-social h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+.contact-social p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+.contact-social-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+.contact-social-list li a {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 1rem 1.125rem;
+  background: var(--card-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.contact-social-list li a:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+.contact-social-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--muted);
+}
+.contact-social-list li a:hover .contact-social-icon {
+  color: var(--accent);
+}
+.contact-social-icon svg {
+  width: 1rem;
+  height: 1rem;
+}
+.contact-social-arrow {
+  margin-left: auto;
+  color: var(--faint);
+}
+.contact-social-arrow svg {
+  width: 1rem;
+  height: 1rem;
+}
+.contact-social-list li a:hover .contact-social-arrow {
+  color: var(--accent);
+}
+
+/* ============================================================
    INNER PAGE HEAD
    ============================================================ */
 .page-top {
@@ -1417,6 +1614,9 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   .contact-panel-grid {
     grid-template-columns: 1fr;
   }
+  .contact-channels {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .intro-media {
     order: -1;
   }
@@ -1446,6 +1646,10 @@ html[data-theme="light"] .theme-toggle .icon-moon {
   .work-grid,
   .cert-grid,
   .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-channels,
+  .contact-social-list {
     grid-template-columns: 1fr;
   }
   .services-list {

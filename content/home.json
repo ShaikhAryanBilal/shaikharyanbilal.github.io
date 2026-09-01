@@ -7,7 +7,7 @@
     "status": "Available for work",
     "cta": {
       "label": "Send a message",
-      "href": "/#contact"
+      "href": "/contact"
     },
     "ctaSecondary": {
       "label": "View resume",
