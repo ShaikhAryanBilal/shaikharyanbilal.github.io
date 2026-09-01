@@ -319,7 +319,7 @@ export default function Page() {
         <section className="section about" id="about">
           <div className="wrap">
             <Reveal>
-              <Typewriter as="h2" className="section-title" text="About — Backend Engineer" dot />
+              <Typewriter as="h2" className="section-title" text="About Me" dot />
             </Reveal>
             {home.about.map((p, i) => (
               <Reveal key={i} delay={i * 60}>
