@@ -88,6 +88,7 @@ export interface Contact {
   hours: string;
   whatsapp: string;
   whatsappCta: { title: string; text: string; label: string };
+  booking: { title: string; text: string; label: string; url: string };
   socials: Social[];
 }
 

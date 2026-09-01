@@ -12,6 +12,12 @@
     "text": "Skip the form — message me on WhatsApp and I'll get back to you as soon as I can.",
     "label": "Message on WhatsApp"
   },
+  "booking": {
+    "title": "Book a free consultation call",
+    "text": "Ready to start? Tap below and send a quick message — we'll set up your call right on WhatsApp.",
+    "label": "Book a call on WhatsApp",
+    "url": "https://wa.me/923472738186?text=Hi%20Shaikh%2C%20I'd%20like%20to%20book%20a%20call%20to%20discuss%20a%20project."
+  },
   "socials": [
     {
       "label": "Facebook",

@@ -7,7 +7,7 @@ import { icons, CONTACT_SOCIAL_ICONS } from "@/components/icons";
 import { contact, siteUrl } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Contact — Shaikh Aryan Bilal",
+  title: "Contact & Hire a Backend Developer — Shaikh Aryan Bilal",
   description:
     "Get in touch with Shaikh Aryan Bilal, a backend-focused web software engineer. Reach out via email, phone, or WhatsApp for web development, Laravel, WordPress, and API projects.",
   keywords: [
@@ -150,15 +150,15 @@ export default function ContactPage() {
               <Reveal delay={120}>
                 <aside className="contact-cta">
                   <span className="contact-cta-icon">{icons.whatsapp}</span>
-                  <Typewriter as="h2" text={contact.whatsappCta.title} dot={false} />
-                  <p>{contact.whatsappCta.text}</p>
+                  <Typewriter as="h2" text={contact.booking.title} dot={false} />
+                  <p>{contact.booking.text}</p>
                   <a
                     className="pill shimmer"
-                    href={contact.whatsapp}
+                    href={contact.booking.url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {contact.whatsappCta.label} <span aria-hidden="true">→</span>
+                    {contact.booking.label} <span aria-hidden="true">→</span>
                   </a>
                 </aside>
               </Reveal>

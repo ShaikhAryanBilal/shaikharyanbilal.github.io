@@ -306,7 +306,7 @@ export default function Page() {
               <div className="intro-photo">
                 <Image
                   src={home.hero.portrait}
-                  alt={home.hero.name}
+                  alt={`${home.hero.name}, ${home.hero.tagline}`}
                   fill
                   priority
                   sizes="(max-width: 900px) 100vw, 420px"
@@ -319,7 +319,7 @@ export default function Page() {
         <section className="section about" id="about">
           <div className="wrap">
             <Reveal>
-              <Typewriter as="h2" className="section-title" text="About me" dot />
+              <Typewriter as="h2" className="section-title" text="About — Backend Engineer" dot />
             </Reveal>
             {home.about.map((p, i) => (
               <Reveal key={i} delay={i * 60}>
@@ -332,7 +332,7 @@ export default function Page() {
         <section className="section tech" id="tech">
           <div className="wrap">
             <Reveal>
-              <Typewriter as="h2" className="section-title" text="Tech stack" dot />
+              <Typewriter as="h2" className="section-title" text="Technical Stack & Skills" dot />
             </Reveal>
             <Reveal delay={60}>
               <ul className="tech-grid">

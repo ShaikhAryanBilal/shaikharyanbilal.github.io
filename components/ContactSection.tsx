@@ -42,10 +42,10 @@ export default function ContactSection() {
             <div>
               <div className="contact-whatsapp">
                 <span className="contact-whatsapp-icon">{icons.whatsapp}</span>
-                <Typewriter as="h3" text={contact.whatsappCta.title} />
-                <p>{contact.whatsappCta.text}</p>
-                <a className="pill shimmer" href={contact.whatsapp} target="_blank" rel="noopener noreferrer">
-                  {contact.whatsappCta.label} <span aria-hidden="true">→</span>
+                <Typewriter as="h3" text={contact.booking.title} />
+                <p>{contact.booking.text}</p>
+                <a className="pill shimmer" href={contact.booking.url} target="_blank" rel="noopener noreferrer">
+                  {contact.booking.label} <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
